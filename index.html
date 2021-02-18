@@ -10,45 +10,51 @@
   <body>
     <div id="app">
       <!-- header -->
-      <header>
-        <div class="container">
-          <!-- navbar -->
-          <nav>
-            <ul class="opening">
-              <li v-for="element in headerNavbar">
-                <i :class="element.clockIcon"></i>
-                {{element.openingTime}}</li>
-            </ul>
-            
-            <ul class="contacts">
-              <li v-for="element in headerNavbar">
-                <i :class="element.telephoneIcon"></i>
-                {{element.telephoneNumber}}</li>  
-              
-              <li v-for="element in headerNavbar">
-                <i :class="element.messageIcon"></i>
-                {{element.mailAdress}}</li>
+      
+        <header>
+          <div class="overlay">
+            <div class="container">
+              <!-- navbar -->
+              <nav>
+                <ul class="opening">
+                  <li v-for="element in headerNavbar">
+                    <i :class="element.clockIcon"></i>
+                    {{element.openingTime}}</li>
+                </ul>
                 
-              <li v-for="element in headerNavbar">
-                <i :class="element.facebookIcon"></i>
-                
-              <li v-for="element in headerNavbar">
-                <i :class="element.twitterIcon"></i> 
+                <ul class="contacts">
+                  <li v-for="element in headerNavbar">
+                    <i :class="element.telephoneIcon"></i>
+                    {{element.telephoneNumber}}</li>  
                   
-              <li v-for="element in headerNavbar">
-                <i :class="element.linkedinIcon"></i>  
-            </ul>
-             
-            
-          </nav>
-          <!-- end navbar -->
-        </div>
-      </header>
-      <!-- end header -->
-      <section id="jumbotron">
-        
-      </section>
+                  <li v-for="element in headerNavbar">
+                    <i :class="element.messageIcon"></i>
+                    {{element.mailAdress}}</li>
+                    
+                  <li v-for="element in headerNavbar">
+                    <i :class="element.facebookIcon"></i>
+                    
+                  <li v-for="element in headerNavbar">
+                    <i :class="element.twitterIcon"></i> 
+                      
+                  <li v-for="element in headerNavbar">
+                    <i :class="element.linkedinIcon"></i>  
+                </ul>
+                 
+                
+              </nav>
+              <!-- end navbar -->
+            </div>
+          </div>
+      
+        </header>
+        <!-- end header -->
+        <section id="jumbotron">
+          
+        </section>
+    
     </div>
+
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>

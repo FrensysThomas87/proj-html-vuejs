@@ -103,17 +103,17 @@ header .container > nav li {
 }
 #jumbotron > .overlay .jumbotron-description .jumbotron-title {
   color: #fff;
-  font-size: 70px;
   font-weight: 900;
+  font-size: 70px;
 }
 #jumbotron > .overlay .jumbotron-description .jumbotron-title:last-of-type {
   background-color: rgba(66, 73, 25, 0.5);
   padding: 0 5px;
 }
 #jumbotron > .overlay .jumbotron-description > p {
-  color: #a2adae;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 18px;
+  color: #706c68;
 }
 #jumbotron > .overlay .jumbotron-description > a {
   color: #fff;
@@ -164,4 +164,45 @@ header .container > nav li {
   margin-top: 20px;
   font-size: 18px;
   color: #706c68;
+}
+
+#network-section {
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+}
+#network-section .about-network {
+  width: 30%;
+  height: 600px;
+  margin-top: 100px;
+}
+#network-section .about-network > h4 {
+  color: #038483;
+  margin-bottom: 30px;
+}
+#network-section .about-network > span {
+  font-size: 60px;
+  font-weight: 900;
+}
+#network-section .about-network > span:first-of-type {
+  color: #038483;
+  background-color: #DAECED;
+  padding: 2px 10px;
+}
+#network-section .about-network p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #706c68;
+  margin-bottom: 70px;
+}
+#network-section .about-network .quality {
+  float: left;
+  width: calc(100% / 2);
+  height: 150px;
+  border: 1px solid black;
+}
+#network-section .img-coffee-container {
+  width: 50%;
+  height: 100%;
+  background-color: green;
 }

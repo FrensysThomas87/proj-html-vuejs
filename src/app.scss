@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 //mixin
@@ -39,6 +40,13 @@
   padding: 10px 15px;
   background-color: $blueLagoon;
   border-radius: 5px;
+  width: 134px;
+}
+
+@mixin readMoreButton {
+  border-radius: 5px;
+  border: 1px solid $blueLagoon;
+  padding: 10px 15px;
 }
 
 @mixin centerAbsolute {
@@ -47,6 +55,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
 //end mixin
 
 
@@ -141,9 +151,52 @@
 
       .jumbotron-description{
         @include centerAbsolute;
-        width: 950px;
+        width: 900px;
         height: 350px;
-        border: 10px solid red;
+        text-align: $txtCentre;
+
+        // display: $flex;
+        // justify-content: center;
+
+
+        .jumbotron-title{
+          color: $white;
+          font-size: 70px;
+          font-weight: 900;
+        }
+
+        .jumbotron-title:last-of-type{
+          background-color: $customerBgColor;
+          padding: 0 5px;
+          // padding: 10px;
+
+        }
+
+        >p{
+          color: $edwardGray;
+          margin-top: 20px;
+          font-size: 20px;
+        }
+
+        >a{
+          @include href;
+
+          .get-in-touch-btn{
+            @include getInTouchButton;
+            width: 150px;
+            display: inline-block;
+            margin-top: 40px;
+          }
+        }
+
+
+
+      }
+
+      .read-more-btn{
+        @include readMoreButton;
+        display: inline-block;
+        margin-left: 15px;
       }
     }
 

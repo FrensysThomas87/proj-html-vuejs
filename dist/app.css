@@ -12,3 +12,12 @@ header .container {
   width: 1200px;
   min-width: 1200px;
 }
+
+#jumbotron {
+  height: 80vh;
+  background-color: red;
+  background-image: url("../img/hero-image.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

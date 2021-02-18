@@ -1,7 +1,7 @@
 new Vue({
  el: '#app',
  data:{
-   headerNavbar:
+   headerNavbar:[
      {
        clockIcon:'fas fa-clock',
        openingTime: 'Open Hours Mon-Sat-9:00-18:00',
@@ -13,7 +13,7 @@ new Vue({
        twitterIcon:'fab fa-twitter',
        linkedinIcon:'fab fa-linkedin-in'
      },
-
+   ],
  },
 });
 Vue.config.devtools = true;

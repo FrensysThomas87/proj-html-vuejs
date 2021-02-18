@@ -14,7 +14,26 @@
         <div class="container">
           <nav>
             <ul>
-              <li></li>
+              <li v-for="element in headerNavbar">
+                <i :class="element.clockIcon"></i>
+                {{element.openingTime}}</li>
+                
+              <li v-for="element in headerNavbar">
+                <i :class="element.telephoneIcon"></i>
+                {{element.telephoneNumber}}</li>  
+              
+              <li v-for="element in headerNavbar">
+                <i :class="element.messageIcon"></i>
+                {{element.mailAdress}}</li>
+                
+              <li v-for="element in headerNavbar">
+                <i :class="element.facebookIcon"></i>
+                
+              <li v-for="element in headerNavbar">
+                <i :class="element.twitterIcon"></i> 
+                  
+              <li v-for="element in headerNavbar">
+                <i :class="element.linkedinIcon"></i>   
             </ul>
           </nav>
         </div>

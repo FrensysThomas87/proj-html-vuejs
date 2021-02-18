@@ -89,6 +89,9 @@ header .container > nav li {
   border-radius: 5px;
   width: 134px;
 }
+#jumbotron > .overlay .container > ul li .get-in-touch-btn:hover {
+  background-color: #00A6A6;
+}
 #jumbotron > .overlay .jumbotron-description {
   position: absolute;
   top: 50%;
@@ -125,10 +128,40 @@ header .container > nav li {
   display: inline-block;
   margin-top: 40px;
 }
+#jumbotron > .overlay .jumbotron-description > a .get-in-touch-btn:hover {
+  background-color: #00A6A6;
+}
 #jumbotron > .overlay .read-more-btn {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
   display: inline-block;
   margin-left: 15px;
+}
+
+#three-adjectives-section {
+  background-color: #e3e7df;
+}
+#three-adjectives-section .container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 150px 0;
+}
+#three-adjectives-section .container .services-div {
+  width: calc(100% / 3 - 20px);
+  height: 300px;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+#three-adjectives-section .container .services-div > h2 {
+  margin-top: 70px;
+}
+#three-adjectives-section .container .services-div > p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #706c68;
 }

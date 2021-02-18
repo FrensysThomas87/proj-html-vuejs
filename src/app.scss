@@ -56,6 +56,13 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin services {
+  width: calc(100% / 3 - 20px);
+  height: 300px;
+  border-radius: 5px;
+  padding: 40px;
+}
+
 
 //end mixin
 
@@ -143,6 +150,10 @@
             .get-in-touch-btn{
               @include getInTouchButton;
             }
+
+            .get-in-touch-btn:hover{
+              background-color: $hoverGetInTouchButtonColor;
+            }
           }
         }
 
@@ -154,10 +165,6 @@
         width: 900px;
         height: 350px;
         text-align: $txtCentre;
-
-        // display: $flex;
-        // justify-content: center;
-
 
         .jumbotron-title{
           color: $white;
@@ -187,10 +194,11 @@
             display: inline-block;
             margin-top: 40px;
           }
+
+          .get-in-touch-btn:hover{
+            background-color: $hoverGetInTouchButtonColor;
+          }
         }
-
-
-
       }
 
       .read-more-btn{
@@ -202,3 +210,36 @@
 
   }
   // end jumbotron
+
+  // Three three-adjectives-section
+  #three-adjectives-section{
+
+    background-color: $grayNurse;
+
+
+    .container{
+      @include container;
+      display: $flex;
+      padding: 150px 0;
+
+
+      .services-div{
+        @include services;
+        background-color: $white;
+        margin-right: 20px;
+
+        >h2{
+          margin-top: 70px;
+        }
+
+        >p{
+          margin-top: 20px;
+          font-size: 18px;
+          color: $flintGray;
+        }
+      }
+    }
+
+
+  }
+  // end Three three-adjectives-section

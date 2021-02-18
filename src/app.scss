@@ -254,7 +254,7 @@
 
   // Network section
   #network-section{
-    height: 800px;
+    height: 900px;
     display: $flex;
     justify-content: flex-end;
 
@@ -288,7 +288,7 @@
         float: left;
         width: calc(100% / 2);
         height: 150px;
-        border: 1px solid black;
+
       }
 
 
@@ -298,6 +298,13 @@
       width: 50%;
       height: 100%;
       background-color: green;
+
+      >img{
+        width: 100%;
+        
+      }
     }
+
+
   }
   //end Network section

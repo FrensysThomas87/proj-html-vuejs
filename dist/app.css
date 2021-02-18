@@ -167,7 +167,7 @@ header .container > nav li {
 }
 
 #network-section {
-  height: 800px;
+  height: 900px;
   display: flex;
   justify-content: flex-end;
 }
@@ -199,10 +199,12 @@ header .container > nav li {
   float: left;
   width: calc(100% / 2);
   height: 150px;
-  border: 1px solid black;
 }
 #network-section .img-coffee-container {
   width: 50%;
   height: 100%;
   background-color: green;
+}
+#network-section .img-coffee-container > img {
+  width: 100%;
 }

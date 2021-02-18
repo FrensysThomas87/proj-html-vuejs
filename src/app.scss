@@ -83,6 +83,10 @@
   padding: 2px 10px;
 }
 
+@mixin servicesHover {
+  transform: translateY(-8px);
+}
+
 
 //end mixin
 
@@ -244,6 +248,12 @@
         @include services;
         background-color: $white;
         margin-right: 20px;
+        cursor: $ppointer;
+        transition: $transitions05s;
+
+        &:hover{
+          @include servicesHover;
+        }
 
         >h2{
           margin-top: $marginTopServicesH2;
@@ -322,7 +332,7 @@
 
       .slogan-container{
         width: 100%;
-        
+
 
         h4{
           @include sectionH4;

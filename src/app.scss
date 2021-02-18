@@ -1,1 +1,24 @@
 @import 'colors';
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//mixin
+@mixin container {
+  width: 1200px;
+  min-width: 1200px;
+}
+//end mixin
+
+
+header{
+  height: 50px;
+  background-color: $surfieGreen;
+  .container{
+    @include container;
+  }
+}

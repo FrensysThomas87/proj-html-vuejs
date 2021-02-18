@@ -14,6 +14,11 @@
   min-width: 1200px;
   margin: 0 auto;
 }
+
+@mixin navbar{
+  list-style: none;
+  display: inline-block;
+}
 //end mixin
 
 //header
@@ -22,6 +27,26 @@ header{
   background-color: $surfieGreen;
   .container{
     @include container;
+
+    >nav{
+      display: $flex;
+      justify-content: space-between;
+
+
+      li{
+        @include navbar ;
+        color: $edwardGray;
+        line-height: 50px;
+      }
+
+      .contacts{
+        >li{
+          padding-right: 30px;
+        }
+      }
+    }
+
+
   }
 }
 // end header

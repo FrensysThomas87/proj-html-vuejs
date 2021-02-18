@@ -13,6 +13,19 @@ header .container {
   min-width: 1200px;
   margin: 0 auto;
 }
+header .container > nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .container > nav li {
+  list-style: none;
+  display: inline-block;
+  color: #a2adae;
+  line-height: 50px;
+}
+header .container > nav .contacts > li {
+  padding-right: 30px;
+}
 
 #jumbotron {
   height: 80vh;

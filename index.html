@@ -12,12 +12,15 @@
       <!-- header -->
       <header>
         <div class="container">
+          <!-- navbar -->
           <nav>
-            <ul>
+            <ul class="opening">
               <li v-for="element in headerNavbar">
                 <i :class="element.clockIcon"></i>
                 {{element.openingTime}}</li>
-                
+            </ul>
+            
+            <ul class="contacts">
               <li v-for="element in headerNavbar">
                 <i :class="element.telephoneIcon"></i>
                 {{element.telephoneNumber}}</li>  
@@ -33,9 +36,12 @@
                 <i :class="element.twitterIcon"></i> 
                   
               <li v-for="element in headerNavbar">
-                <i :class="element.linkedinIcon"></i>   
+                <i :class="element.linkedinIcon"></i>  
             </ul>
+             
+            
           </nav>
+          <!-- end navbar -->
         </div>
       </header>
       <!-- end header -->

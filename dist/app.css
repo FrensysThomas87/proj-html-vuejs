@@ -358,10 +358,22 @@ header .container > nav li {
 #pricing-table .container .prices-container .prices h2 {
   margin-bottom: 20px;
 }
-#pricing-table .container .prices-container .prices span {
+#pricing-table .container .prices-container .prices > span {
   color: #038483;
   font-size: 20px;
 }
-#pricing-table .container .prices-container .prices span > strong {
+#pricing-table .container .prices-container .prices > span > strong {
   font-size: 40px;
+}
+#pricing-table .container .prices-container .prices .services-plan-container {
+  text-align: left;
+  margin-top: 20px;
+}
+#pricing-table .container .prices-container .prices .services-plan-container > p {
+  margin-bottom: 18px;
+  color: #706c68;
+}
+#pricing-table .container .prices-container .prices .services-plan-container > p > i {
+  float: right;
+  color: #038483;
 }

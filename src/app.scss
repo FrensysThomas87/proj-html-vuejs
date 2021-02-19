@@ -474,11 +474,26 @@
           &:nth-of-type(2){
             transform: scale(1.04);
             margin: 0 30px;
+            padding-top:36px;
           }
 
           >i{
             @include emptyIcons;
             margin-bottom: 10px;
+          }
+
+          h2{
+            margin-bottom: 20px;
+          }
+
+          span{
+            color: $blueLagoon;
+            font-size: 20px;
+
+            >strong{
+              font-size: 40px;
+            }
+
           }
         }
       }

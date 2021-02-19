@@ -348,9 +348,20 @@ header .container > nav li {
 #pricing-table .container .prices-container .prices:nth-of-type(2) {
   transform: scale(1.04);
   margin: 0 30px;
+  padding-top: 36px;
 }
 #pricing-table .container .prices-container .prices > i {
   color: #038483;
   font-size: 50px;
   margin-bottom: 10px;
+}
+#pricing-table .container .prices-container .prices h2 {
+  margin-bottom: 20px;
+}
+#pricing-table .container .prices-container .prices span {
+  color: #038483;
+  font-size: 20px;
+}
+#pricing-table .container .prices-container .prices span > strong {
+  font-size: 40px;
 }

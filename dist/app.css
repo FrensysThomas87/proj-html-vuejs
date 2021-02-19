@@ -592,7 +592,7 @@ header .container > nav li {
 }
 
 #get-in-touch {
-  height: 1000px;
+  padding: 100px 0;
   background-color: #fff;
 }
 #get-in-touch .container {
@@ -660,4 +660,36 @@ header .container > nav li {
 }
 #get-in-touch .container .slogan-container a .see-all-button:hover {
   background-color: #00A6A6;
+}
+#get-in-touch .container .contacts-container {
+  height: 550px;
+}
+#get-in-touch .container .contacts-container > p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #706c68;
+  margin-top: 30px;
+}
+#get-in-touch .container .contacts-container .icon-contacts {
+  color: #038483;
+}
+#get-in-touch .container .contacts-container .icon-contacts > i {
+  background-color: #DAECED;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #038483;
+  padding: 10px;
+  margin-right: 10px;
+}
+#get-in-touch .container .contacts-container a {
+  color: #fff;
+  text-decoration: none;
+}
+#get-in-touch .container .contacts-container a .view-map {
+  margin-top: 25px;
+  border-radius: 5px;
+  border: 1px solid #038483;
+  padding: 10px 15px;
+  color: #038483;
+  display: inline-block;
 }

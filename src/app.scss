@@ -102,6 +102,14 @@ body{
   color: $blueLagoon;
 }
 
+@mixin roundedIcons {
+  background-color: $highlightedBgGreen;
+  border-radius: 50%;
+  font-size: 25px;
+  @include icons;
+  padding: 10px;
+}
+
 @mixin inputText {
   height: 40px;
   width: 350px;
@@ -275,11 +283,7 @@ body{
         margin-right: 20px;
 
         >i{
-          background-color: $highlightedBgGreen;
-          border-radius: 50%;
-          font-size: 25px;
-          @include icons;
-          padding: 10px;
+        @include roundedIcons;
         }
 
 
@@ -776,7 +780,7 @@ body{
 
   // get in touch
   #get-in-touch{
-    height: 1000px;
+    padding: 100px 0;
     background-color: $white;
 
     .container{
@@ -788,6 +792,7 @@ body{
 
       .slogan-container{
         width: 100%;
+
 
 
 
@@ -845,6 +850,41 @@ body{
                   }
                 }
               }
+            }
+
+            .contacts-container{
+              height: 550px;
+              // width: 500px;
+
+
+              >p{
+                @include paragraphs;
+                margin-top: 30px;
+              }
+
+              .icon-contacts{
+                color: $blueLagoon;
+
+                >i{
+                  @include roundedIcons;
+                  margin-right: 10px;
+                }
+
+
+              }
+
+              a{
+                @include href;
+
+                .view-map{
+                  margin-top: 25px;
+                  @include readMoreButton;
+                  color: $blueLagoon;
+                  display: inline-block;
+                }
+              }
+
+
             }
           }
         }

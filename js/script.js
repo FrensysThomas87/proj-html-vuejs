@@ -1,7 +1,7 @@
 new Vue({
  el: '#app',
  data:{
-   headerNavbar:[
+   commonProperties:
      {
        clockIcon:'fas fa-clock',
        openingTime: 'Open Hours Mon-Sat-9:00-18:00',
@@ -12,6 +12,7 @@ new Vue({
        facebookIcon: 'fab fa-facebook-f',
        twitterIcon:'fab fa-twitter',
        linkedinIcon:'fab fa-linkedin-in',
+       mapIcon: 'fas fa-map-marker-alt',
        home: 'HOME',
        about: 'ABOUT',
        services: 'SERVICES',
@@ -19,9 +20,11 @@ new Vue({
        blog: 'BLOG',
        getInTouch: 'GET IN TOUCH',
        logoFirst: 'NEX',
-       logoSecond: 'GEN'
+       logoSecond: 'GEN',
+       adress: 'Main Avenue, 987',
+       getInTouch: 'GET IN TOUCH'
      },
-   ],
+
  },
 });
 Vue.config.devtools = true;

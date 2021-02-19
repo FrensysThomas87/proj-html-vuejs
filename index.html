@@ -17,28 +17,28 @@
               <!-- navbar -->
               <nav>
                 <ul class="opening">
-                  <li v-for="element in headerNavbar">
-                    <i :class="element.clockIcon"></i>
-                    {{element.openingTime}}</li>
+                  <li>
+                    <i :class="commonProperties.clockIcon"></i>
+                    {{commonProperties.openingTime}}</li>
                 </ul>
 
                 <ul class="contacts">
-                  <li v-for="element in headerNavbar">
-                    <i :class="element.telephoneIcon"></i>
-                    {{element.telephoneNumber}}</li>
+                  <li>
+                    <i :class="commonProperties.telephoneIcon"></i>
+                    {{commonProperties.telephoneNumber}}</li>
 
-                  <li v-for="element in headerNavbar">
-                    <i :class="element.messageIcon"></i>
-                    {{element.mailAdress}}</li>
+                  <li>
+                    <i :class="commonProperties.messageIcon"></i>
+                    {{commonProperties.mailAdress}}</li>
 
-                  <li v-for="element in headerNavbar">
-                    <i :class="element.facebookIcon"></i>
+                  <li>
+                    <i :class="commonProperties.facebookIcon"></i>
 
-                  <li v-for="element in headerNavbar">
-                    <i :class="element.twitterIcon"></i>
+                  <li>
+                    <i :class="commonProperties.twitterIcon"></i>
 
-                  <li v-for="element in headerNavbar">
-                    <i :class="element.linkedinIcon"></i>
+                  <li>
+                    <i :class="commonProperties.linkedinIcon"></i>
                 </ul>
               </nav>
               <!-- end navbar -->
@@ -51,18 +51,18 @@
         <section id="jumbotron">
           <div class="overlay">
             <div class="container">
-              <div class="nex-gen" v-for="element in headerNavbar">
-                <p><strong>{{element.logoFirst}}</strong></p>
-                <p><strong>{{element.logoSecond}}</strong></p>
+              <div class="nex-gen">
+                <p><strong>{{commonProperties.logoFirst}}</strong></p>
+                <p><strong>{{commonProperties.logoSecond}}</strong></p>
               </div>
 
-              <ul v-for="element in headerNavbar">
-                <li><a href="">{{element.home}}</a></li>
-                <li><a href="">{{element.about}}</a></li>
-                <li><a href="">{{element.services}}</a></li>
-                <li><a href="">{{element.pricing}}</a></li>
-                <li><a href="">{{element.blog}}</a></li>
-                <li><a  class="get-in-touch-btn" href="">{{element.getInTouch}}</a></li>
+              <ul>
+                <li><a href="">{{commonProperties.home}}</a></li>
+                <li><a href="">{{commonProperties.about}}</a></li>
+                <li><a href="">{{commonProperties.services}}</a></li>
+                <li><a href="">{{commonProperties.pricing}}</a></li>
+                <li><a href="">{{commonProperties.blog}}</a></li>
+                <li><a  class="get-in-touch-btn" href="">{{commonProperties.getInTouch}}</a></li>
               </ul>
 
               <div class="jumbotron-description">

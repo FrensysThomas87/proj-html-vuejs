@@ -25,6 +25,31 @@ new Vue({
        getInTouch: 'GET IN TOUCH'
      },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  },
 });
 Vue.config.devtools = true;

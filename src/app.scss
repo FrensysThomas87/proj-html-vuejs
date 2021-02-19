@@ -463,18 +463,40 @@
 
         .prices{
           width: calc(100% / 3 - 15px);
-          height: 600px;
-          border: 1px solid black;
           border-radius: 5px;
           background-color: $white;
           padding: 30px;
           text-align: center;
 
+          .badge-popular-container{
+            text-align: left;
+            background-color: $blueLagoon;
+            width: 70px;
+            margin-left: -30px;
+            color: $grayNurse;
+            border-bottom-right-radius: 40%;
+            border-top-right-radius: 40%;
+            padding: 5px 10px 5px 5px;
+            line-height: 15px;
+            margin-top: -10px;
+
+
+
+            // >p{
+            //   background-color: $blueLagoon;
+            //   padding: 10px;
+            // }
+          }
+
 
           &:nth-of-type(2){
             transform: scale(1.04);
             margin: 0 30px;
-            padding-top:36px;
+            padding-top:16px;
+
+            >h2{
+              margin-bottom: 10px;
+            }
           }
 
           >i{

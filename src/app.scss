@@ -296,7 +296,7 @@
 
     .about-network{
       width: 30%;
-      height: 600px;
+
       margin-top: 100px;
 
 
@@ -322,7 +322,7 @@
       .quality{
         float: left;
         width: calc(100% / 2);
-        height: 150px;
+
 
         >h2{
 
@@ -573,16 +573,16 @@
         width: 100%;
 
 
-        h4{
+        >h4{
           @include sectionH4;
         }
 
-        span{
+        >span{
           @include slogans;
           color: $woodSmokeBlack;
         }
 
-        span:last-of-type{
+        >span:last-of-type{
           @include highlightedWord;
           background-color: $highlightedBgGreen;
           color: $blueLagoon;
@@ -625,27 +625,66 @@
           height: 391px;
           border-radius: 5px;
 
-
-
-          &:nth-child(2){
+        &:nth-child(2){
             margin: 0 20px;
           }
 
           >img{
             width: 100%;
             border-radius: 5px;
-
-
           }
 
           .overlay{
             @include overlay;
-            display: $flex;
             justify-content: center;
-            align-items: flex-end;
             padding: 40px 50px;
             border-radius: 5px;
             height: 99%;
+            cursor: $cursPointer;
+
+
+            &:hover .more-info-container{
+              opacity: 1;
+            }
+
+            &:hover h2{
+              margin-top: 120px;
+              margin-bottom: 25px;
+            }
+
+            &:hover .lorem{
+              opacity: 1;
+            }
+
+            h2{
+              margin-top: 213px;
+              transition: $transitions05s;
+
+            }
+
+            .more-info-container{
+              opacity: 0;
+              transition: $transitions05s;
+
+
+
+              >span{
+                margin-right: 15px;
+
+                >i{
+                  margin-right: 5px;
+                }
+              }
+
+
+            }
+
+            .lorem{
+              opacity: 0;
+              transition:$transitions05s;
+            }
+
+
 
 
           }

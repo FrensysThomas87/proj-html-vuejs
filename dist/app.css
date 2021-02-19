@@ -161,6 +161,8 @@ header .container > nav li {
 }
 #three-adjectives-section .container .services-div:hover {
   transform: translateY(-8px);
+  cursor: pointer;
+  transition: 0.5s;
 }
 #three-adjectives-section .container .services-div > h2 {
   margin-top: 70px;
@@ -268,6 +270,11 @@ header .container > nav li {
   width: calc(100% /3 - 15px);
   background-color: #19191f;
   margin: 0 15px 15px 0;
+}
+#excellence-services .container .services-container .services:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+  transition: 0.5s;
 }
 #excellence-services .container .services-container .services > h2 {
   margin-top: 70px;

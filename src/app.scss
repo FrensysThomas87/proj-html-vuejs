@@ -85,6 +85,8 @@
 
 @mixin servicesHover {
   transform: translateY(-8px);
+  cursor: $cursPointer;
+  transition: $transitions05s;
 }
 
 
@@ -380,6 +382,10 @@
           width: calc(100% /3 - 15px);
           background-color: $servicesBgExellence;
           margin: 0 15px 15px 0;
+
+          &:hover{
+            @include servicesHover;
+          }
 
           >h2{
             margin-top: $marginTopServicesH2;

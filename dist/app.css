@@ -156,8 +156,6 @@ header .container > nav li {
   padding: 40px;
   background-color: #fff;
   margin-right: 20px;
-  cursor: pointer;
-  transition: 0.5s;
 }
 #three-adjectives-section .container .services-div:hover {
   transform: translateY(-8px);

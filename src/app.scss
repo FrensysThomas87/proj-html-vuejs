@@ -250,8 +250,7 @@
         @include services;
         background-color: $white;
         margin-right: 20px;
-        cursor: $cursPointer;
-        transition: $transitions05s;
+        
 
         &:hover{
           @include servicesHover;

@@ -5,6 +5,10 @@
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+body {
+  min-width: 1200px;
+}
+
 header {
   height: 50px;
   background-color: #0d7e7e;
@@ -414,7 +418,6 @@ header .container > nav li {
 }
 
 #latest-news {
-  height: 1000px;
   background-color: #fff;
 }
 #latest-news .container {
@@ -521,4 +524,56 @@ header .container > nav li {
 #latest-news .latest-news-photos-container .latest-news-photos .overlay .lorem {
   opacity: 0;
   transition: 0.5s;
+  background-size: cover;
+}
+
+#news-letter {
+  height: 500px;
+  background-image: url("../img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+#news-letter .container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+#news-letter .container .slogan-container {
+  width: 100%;
+}
+#news-letter .container .slogan-container > h4 {
+  color: #038483;
+  margin-bottom: 30px;
+}
+#news-letter .container .slogan-container > span {
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+}
+#news-letter .container .slogan-container > span:first-of-type {
+  padding: 2px 10px;
+  background-color: #0E272D;
+}
+#news-letter .container .slogan-container p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #706c68;
+  color: #e3e7df;
+}
+#news-letter .container .slogan-container a {
+  color: #fff;
+  text-decoration: none;
+}
+#news-letter .container .slogan-container a .see-all-button {
+  background-color: #038483;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  float: right;
+  margin-top: -40px;
+}
+#news-letter .container .slogan-container a .see-all-button:hover {
+  background-color: #00A6A6;
 }

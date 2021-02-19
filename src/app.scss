@@ -9,6 +9,10 @@
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+body{
+  min-width:1200px;
+}
+
 //mixin
 @mixin container {
   width: 1200px;
@@ -562,7 +566,6 @@
 
   // Latest News
   #latest-news{
-    height: 1000px;
     background-color: $white;
 
     .container{
@@ -675,22 +678,73 @@
                   margin-right: 5px;
                 }
               }
-
-
             }
 
             .lorem{
               opacity: 0;
               transition:$transitions05s;
+              background-size: cover;
+
             }
-
-
-
-
           }
-
         }
       }
-
     }
   // End Latest News
+
+  // News letter
+  #news-letter{
+    height: 500px;
+    background-image: url($newsLetterBg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: $flex;
+    align-items: center;
+
+    .container{
+      @include container;
+
+      .slogan-container{
+        width: 100%;
+
+
+        >h4{
+          @include sectionH4;
+        }
+
+        >span{
+          @include slogans;
+          color: $white;
+        }
+
+        >span:first-of-type{
+          @include highlightedWord;
+          background-color: #0E272D;
+
+        }
+
+        p{
+          @include paragraphs;
+          color: $grayNurse;
+        }
+
+        a{
+          @include href;
+
+          .see-all-button{
+            background-color: $blueLagoon;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            float: right;
+            margin-top: -40px;
+
+            &:hover{
+              background-color: $hoverGetInTouchButtonColor;
+              }
+            }
+          }
+        }
+    }
+  }
+  //end news-letter

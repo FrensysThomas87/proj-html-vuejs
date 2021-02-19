@@ -445,7 +445,6 @@
 
   //Pricing table
   #pricing-table{
-    height: 1000px;
     background-color: $grayNurse;
 
     .container{
@@ -502,11 +501,11 @@
             width: 70px;
             margin-left: -30px;
             color: $grayNurse;
-            border-bottom-right-radius: 40%;
-            border-top-right-radius: 40%;
+            border-bottom-right-radius: 45%;
+            border-top-right-radius: 45%;
             padding: 5px 10px 5px 5px;
             line-height: 15px;
-            margin-top: -10px;
+
           }
 
 
@@ -560,3 +559,99 @@
     }
   }
   //End Pricing Table
+
+  // Latest News
+  #latest-news{
+    height: 1000px;
+    background-color: $white;
+
+    .container{
+      @include container;
+      padding: 100px 0;
+
+      .slogan-container{
+        width: 100%;
+
+
+        h4{
+          @include sectionH4;
+        }
+
+        span{
+          @include slogans;
+          color: $woodSmokeBlack;
+        }
+
+        span:last-of-type{
+          @include highlightedWord;
+          background-color: $highlightedBgGreen;
+          color: $blueLagoon;
+        }
+
+        p{
+          @include paragraphs;
+          color: $flintGray;
+        }
+
+        a{
+          @include href;
+
+          .see-all-button{
+            background-color: $blueLagoon;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            float: right;
+            margin-top: -40px;
+
+            &:hover{
+              background-color: $hoverGetInTouchButtonColor;
+              }
+            }
+          }
+        }
+      }
+
+      .latest-news-photos-container{
+        display: $flex;
+        width: 100%;
+        margin-top: 50px;
+
+        .latest-news-photos{
+          width: calc(100% / 3);
+          position: relative;
+          text-align: center;
+          color: $white;
+          height: 391px;
+          border-radius: 5px;
+
+
+
+          &:nth-child(2){
+            margin: 0 20px;
+          }
+
+          >img{
+            width: 100%;
+            border-radius: 5px;
+
+
+          }
+
+          .overlay{
+            @include overlay;
+            display: $flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 40px 50px;
+            border-radius: 5px;
+            height: 99%;
+
+
+          }
+
+        }
+      }
+
+    }
+  // End Latest News

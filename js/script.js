@@ -25,7 +25,17 @@ new Vue({
        getInTouch: 'GET IN TOUCH'
      },
 
+     footerProperties:[{
+       about:{
+         ciao:'ciao',
+         arr: 'arr',
+       },
 
+       services:{
+         miao: 'miao',
+         bau: 'bau'
+       }
+     }],
 
 
 

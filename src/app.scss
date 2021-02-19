@@ -94,6 +94,10 @@
   font-size: 50px;
 }
 
+@mixin icons {
+  color: $blueLagoon;
+}
+
 
 //end mixin
 
@@ -260,7 +264,7 @@
           background-color: $highlightedBgGreen;
           border-radius: 50%;
           font-size: 25px;
-          color: $blueLagoon;
+          @include icons;
           padding: 10px;
         }
 
@@ -320,6 +324,16 @@
         width: calc(100% / 2);
         height: 150px;
 
+        >h2{
+
+          >i{
+            @include icons;
+            font-size: 20px;
+            margin-right: 8px;
+          }
+
+        }
+
       }
     }
 
@@ -378,9 +392,6 @@
             padding: 10px 25px;
             float: right;
             margin-top: -40px;
-
-
-
           }
         }
       }
@@ -396,6 +407,11 @@
           width: calc(100% /3 - 15px);
           background-color: $servicesBgExellence;
           margin: 0 15px 15px 0;
+
+          >i{
+            @include icons;
+            font-size: 30px;
+          }
 
           &:hover{
             @include servicesHover;
@@ -534,7 +550,7 @@
 
               >i{
                 float: right;
-                color: $blueLagoon;
+                @include icons;
               }
             }
           }

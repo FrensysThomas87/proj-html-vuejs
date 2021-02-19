@@ -211,6 +211,11 @@ header .container > nav li {
   width: calc(100% / 2);
   height: 150px;
 }
+#network-section .about-network .quality > h2 > i {
+  color: #038483;
+  font-size: 20px;
+  margin-right: 8px;
+}
 #network-section .img-coffee-container {
   width: 50%;
   height: 951px;
@@ -275,6 +280,10 @@ header .container > nav li {
   width: calc(100% /3 - 15px);
   background-color: #19191f;
   margin: 0 15px 15px 0;
+}
+#excellence-services .container .services-container .services > i {
+  color: #038483;
+  font-size: 30px;
 }
 #excellence-services .container .services-container .services:hover {
   transform: translateY(-8px);

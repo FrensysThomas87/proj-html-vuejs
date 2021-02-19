@@ -694,15 +694,15 @@ body{
 
   // News letter
   #news-letter{
-    height: 500px;
     background-image: url($newsLetterBg);
     background-repeat: no-repeat;
     background-position: center;
-    display: $flex;
-    align-items: center;
+
+
 
     .container{
       @include container;
+      padding: 100px 0;
 
       .slogan-container{
         width: 100%;
@@ -728,23 +728,46 @@ body{
           color: $grayNurse;
         }
 
-        a{
-          @include href;
 
-          .see-all-button{
-            background-color: $blueLagoon;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-align: center;
+
+          .input-container{
+            width: 50%;
+            height: 300px;
             float: right;
-            margin-top: -40px;
+            display: $flex;
+            flex-direction: column;
+            margin-left: 30px;
 
-            &:hover{
-              background-color: $hoverGetInTouchButtonColor;
-              }
+            input{
+              height: 40px;
+              width: 350px;
+              border-radius: 5px;
+              margin-bottom: 15px;
+              background-color: rgba(193,202,202, 0.5);
+              border: 0;
+              padding:10px;
             }
+
+            a{
+              @include href;
+
+              .see-all-button{
+                background-color: $blueLagoon;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-align: center;
+                display: inline-block;
+
+
+                &:hover{
+                  background-color: $hoverGetInTouchButtonColor;
+                  }
+                }
+              }
           }
+
+
         }
+      }
     }
-  }
   //end news-letter

@@ -528,17 +528,15 @@ header .container > nav li {
 }
 
 #news-letter {
-  height: 500px;
   background-image: url("../img/bg-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  align-items: center;
 }
 #news-letter .container {
   width: 1200px;
   min-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 #news-letter .container .slogan-container {
   width: 100%;
@@ -562,18 +560,34 @@ header .container > nav li {
   color: #706c68;
   color: #e3e7df;
 }
-#news-letter .container .slogan-container a {
+#news-letter .container .slogan-container .input-container {
+  width: 50%;
+  height: 300px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+#news-letter .container .slogan-container .input-container input {
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: rgba(193, 202, 202, 0.5);
+  border: 0;
+  padding: 10px;
+}
+#news-letter .container .slogan-container .input-container a {
   color: #fff;
   text-decoration: none;
 }
-#news-letter .container .slogan-container a .see-all-button {
+#news-letter .container .slogan-container .input-container a .see-all-button {
   background-color: #038483;
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
-  float: right;
-  margin-top: -40px;
+  display: inline-block;
 }
-#news-letter .container .slogan-container a .see-all-button:hover {
+#news-letter .container .slogan-container .input-container a .see-all-button:hover {
   background-color: #00A6A6;
 }

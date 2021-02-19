@@ -492,6 +492,10 @@
           padding: 30px;
           text-align: center;
 
+          &:hover{
+            @include servicesHover;
+          }
+
           .badge-popular-container{
             text-align: left;
             background-color: $blueLagoon;
@@ -510,6 +514,10 @@
             transform: scale(1.04);
             margin: 0 30px;
             padding-top:8px;
+
+            &:hover{
+              @include servicesHover;
+            }
 
             >h2{
               margin-bottom: 10px;

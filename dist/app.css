@@ -359,6 +359,11 @@ header .container > nav li {
   padding: 30px;
   text-align: center;
 }
+#pricing-table .container .prices-container .prices:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+  transition: 0.5s;
+}
 #pricing-table .container .prices-container .prices .badge-popular-container {
   text-align: left;
   background-color: #038483;
@@ -375,6 +380,11 @@ header .container > nav li {
   transform: scale(1.04);
   margin: 0 30px;
   padding-top: 8px;
+}
+#pricing-table .container .prices-container .prices:nth-of-type(2):hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+  transition: 0.5s;
 }
 #pricing-table .container .prices-container .prices:nth-of-type(2) > h2 {
   margin-bottom: 10px;

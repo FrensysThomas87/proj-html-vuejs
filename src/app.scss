@@ -107,7 +107,7 @@ body{
   width: 350px;
   border-radius: 5px;
   margin-bottom: 15px;
-  background-color: rgba(193,202,202, 0.5);
+  background-color: $inputColor;
   border: 0;
   padding:10px;
 }
@@ -813,7 +813,20 @@ body{
         }
 
         .input-container{
+          margin-top: 50px;
+          >input{
+            @include inputText;
+          }
 
+          >textarea{
+            width: 705px;
+            border: 0;
+            background-color: $inputColor;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            resize: none;
+          }
         }
 
         a{

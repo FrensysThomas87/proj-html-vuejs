@@ -250,11 +250,13 @@
         @include services;
         background-color: $white;
         margin-right: 20px;
-        
+
 
         &:hover{
           @include servicesHover;
         }
+
+      
 
         >h2{
           margin-top: $marginTopServicesH2;
@@ -406,14 +408,40 @@
               display: inline-block;
             }
           }
-
-
         }
       }
-
-
-
-
     }
   }
   //end excellence services
+
+  //Pricing table
+  #pricing-table{
+    height: 1000px;
+    background-color: $grayNurse;
+
+    .container{
+      @include container;
+      display: $flex;
+      justify-content: center;
+      padding: 100px 0;
+
+      .slogan-container{
+        width: 600px;
+        border: 1px solid black;
+        height: 400px;
+        text-align: center;
+
+        h4{
+          @include sectionH4;
+        }
+
+        // span{
+        //   @include slogans;
+        // }
+
+
+
+      }
+    }
+  }
+  //End Pricing Table

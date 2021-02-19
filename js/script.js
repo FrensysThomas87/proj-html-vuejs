@@ -11,7 +11,15 @@ new Vue({
        mailAdress:'hello@example.com',
        facebookIcon: 'fab fa-facebook-f',
        twitterIcon:'fab fa-twitter',
-       linkedinIcon:'fab fa-linkedin-in'
+       linkedinIcon:'fab fa-linkedin-in',
+       home: 'HOME',
+       about: 'ABOUT',
+       services: 'SERVICES',
+       pricing: 'PRICING',
+       blog: 'BLOG',
+       getInTouch: 'GET IN TOUCH',
+       logoFirst: 'NEX',
+       logoSecond: 'GEN'
      },
    ],
  },

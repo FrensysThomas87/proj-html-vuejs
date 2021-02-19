@@ -296,3 +296,26 @@ header .container > nav li {
   color: #fff;
   display: inline-block;
 }
+
+#pricing-table {
+  height: 1000px;
+  background-color: #e3e7df;
+}
+#pricing-table .container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+#pricing-table .container .slogan-container {
+  width: 600px;
+  border: 1px solid black;
+  height: 400px;
+  text-align: center;
+}
+#pricing-table .container .slogan-container h4 {
+  color: #038483;
+  margin-bottom: 30px;
+}

@@ -54,18 +54,18 @@
         <section id="jumbotron">
           <div class="overlay">
             <div class="container">
-              <div class="nex-gen">
-                <p><strong>NEX</strong></p>
-                <p><strong>GEN</strong></p>
+              <div class="nex-gen" v-for="element in headerNavbar">
+                <p><strong>{{element.logoFirst}}</strong></p>
+                <p><strong>{{element.logoSecond}}</strong></p>
               </div>
 
-              <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">SERVICES</a></li>
-                <li><a href="">PRICING</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a  class="get-in-touch-btn" href="">GET IN TOUCH</a></li>
+              <ul v-for="element in headerNavbar">
+                <li><a href="">{{element.home}}</a></li>
+                <li><a href="">{{element.about}}</a></li>
+                <li><a href="">{{element.services}}</a></li>
+                <li><a href="">{{element.pricing}}</a></li>
+                <li><a href="">{{element.blog}}</a></li>
+                <li><a  class="get-in-touch-btn" href="">{{element.getInTouch}}</a></li>
               </ul>
 
               <div class="jumbotron-description">
@@ -223,6 +223,19 @@
             </div>
           </section>
         <!--end excellence services -->
+
+        <!-- Pricing Table -->
+        <section id="pricing-table">
+          <div class="container">
+            <div class="slogan-container">
+              <h4>MONTHLY PLANS</h4>
+              <span>Pricing</span>
+              <span>Table</span>
+            </div>
+          </div>
+
+        </section>
+        <!-- end pricing table -->
 
 
 

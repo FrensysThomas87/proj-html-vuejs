@@ -157,13 +157,20 @@ header .container > nav li {
   background-color: #fff;
   margin-right: 20px;
 }
+#three-adjectives-section .container .services-div > i {
+  background-color: #DAECED;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #038483;
+  padding: 10px;
+}
 #three-adjectives-section .container .services-div:hover {
   transform: translateY(-8px);
   cursor: pointer;
   transition: 0.5s;
 }
 #three-adjectives-section .container .services-div > h2 {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 #three-adjectives-section .container .services-div > p {
   margin-top: 20px;
@@ -275,7 +282,7 @@ header .container > nav li {
   transition: 0.5s;
 }
 #excellence-services .container .services-container .services > h2 {
-  margin-top: 70px;
+  margin-top: 20px;
   color: #fff;
 }
 #excellence-services .container .services-container .services > p {

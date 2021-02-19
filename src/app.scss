@@ -256,6 +256,14 @@
         background-color: $white;
         margin-right: 20px;
 
+        >i{
+          background-color: $highlightedBgGreen;
+          border-radius: 50%;
+          font-size: 25px;
+          color: $blueLagoon;
+          padding: 10px;
+        }
+
 
         &:hover{
           @include servicesHover;

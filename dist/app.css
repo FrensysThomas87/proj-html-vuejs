@@ -213,7 +213,6 @@ header .container > nav li {
 }
 
 #excellence-services {
-  height: 1000px;
   background-color: #121117;
 }
 #excellence-services .container {
@@ -244,15 +243,51 @@ header .container > nav li {
   color: #706c68;
   color: #e3e7df;
 }
-#excellence-services .container a {
+#excellence-services .container .slogan-container a {
   color: #fff;
   text-decoration: none;
 }
-#excellence-services .container a .see-all-button {
+#excellence-services .container .slogan-container a .see-all-button {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
   padding: 10px 25px;
   float: right;
   margin-top: -40px;
+}
+#excellence-services .container .services-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+#excellence-services .container .services-container .services {
+  width: calc(100% / 3 - 20px);
+  height: 300px;
+  border-radius: 5px;
+  padding: 40px;
+  width: calc(100% /3 - 15px);
+  background-color: #19191f;
+  margin: 0 15px 15px 0;
+}
+#excellence-services .container .services-container .services > h2 {
+  margin-top: 70px;
+  color: #fff;
+}
+#excellence-services .container .services-container .services > p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #706c68;
+}
+#excellence-services .container .services-container .services a {
+  color: #fff;
+  text-decoration: none;
+}
+#excellence-services .container .services-container .services a .read-more-btn {
+  border-radius: 5px;
+  border: 1px solid #038483;
+  padding: 10px 15px;
+  margin-top: 20px;
+  width: 120px;
+  color: #fff;
+  display: inline-block;
 }

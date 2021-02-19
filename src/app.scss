@@ -233,7 +233,7 @@
   }
   // end jumbotron
 
-  // Three three-adjectives-section
+  // Three-adjectives-section
   #three-adjectives-section{
     background-color: $grayNurse;
 
@@ -248,7 +248,7 @@
         @include services;
         background-color: $white;
         margin-right: 20px;
-        cursor: $ppointer;
+        cursor: $cursPointer;
         transition: $transitions05s;
 
         &:hover{
@@ -321,7 +321,7 @@
 
   // Excellence services
   #excellence-services{
-    height: 1000px;
+
     background-color: $woodSmokeBlack;
 
     .container{
@@ -352,22 +352,61 @@
           @include paragraphs;
           color: $grayNurse;
         }
+
+        a{
+          @include href;
+
+
+          .see-all-button{
+            @include readMoreButton;
+            padding: 10px 25px;
+            float: right;
+            margin-top: -40px;
+
+
+
+          }
+        }
       }
 
-      a{
-        @include href;
+      .services-container{
+        display: $flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
 
 
-        .see-all-button{
-          @include readMoreButton;
-          padding: 10px 25px;
-          float: right;
-          margin-top: -40px;
+        .services{
+          @include services;
+          width: calc(100% /3 - 15px);
+          background-color: $servicesBgExellence;
+          margin: 0 15px 15px 0;
 
+          >h2{
+            margin-top: $marginTopServicesH2;
+            color: $white;
+          }
+
+          >p{
+            @include paragraphs;
+          }
+
+          a{
+            @include href;
+
+            .read-more-btn{
+              @include readMoreButton;
+              margin-top: 20px;
+              width: 120px;
+              color: $white;
+              display: inline-block;
+            }
+          }
 
 
         }
       }
+
+
 
 
     }

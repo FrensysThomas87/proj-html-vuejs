@@ -89,6 +89,11 @@
   transition: $transitions05s;
 }
 
+@mixin emptyIcons {
+  color: $blueLagoon;
+  font-size: 50px;
+}
+
 
 //end mixin
 
@@ -256,7 +261,7 @@
           @include servicesHover;
         }
 
-      
+
 
         >h2{
           margin-top: $marginTopServicesH2;
@@ -421,26 +426,61 @@
 
     .container{
       @include container;
-      display: $flex;
-      justify-content: center;
+      // display: $flex;
+      // justify-content: center;
       padding: 100px 0;
 
       .slogan-container{
-        width: 600px;
-        border: 1px solid black;
-        height: 400px;
+        width: 800px;
         text-align: center;
+        margin: 0 auto;
 
         h4{
           @include sectionH4;
         }
 
-        // span{
-        //   @include slogans;
-        // }
+        span{
+          @include slogans;
+        }
+
+        span:first-of-type{
+          @include highlightedWord;
+          background-color: $highlightedBgGreen;
+          color: $blueLagoon;
+        }
+
+        p{
+          @include paragraphs;
+        }
+
+      }
+
+      .prices-container{
+        display: $flex;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+
+        .prices{
+          width: calc(100% / 3 - 15px);
+          height: 600px;
+          border: 1px solid black;
+          border-radius: 5px;
+          background-color: $white;
+          padding: 30px;
+          text-align: center;
 
 
+          &:nth-of-type(2){
+            transform: scale(1.04);
+            margin: 0 30px;
+          }
 
+          >i{
+            @include emptyIcons;
+            margin-bottom: 10px;
+          }
+        }
       }
     }
   }

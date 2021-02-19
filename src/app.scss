@@ -102,6 +102,16 @@ body{
   color: $blueLagoon;
 }
 
+@mixin inputText {
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: rgba(193,202,202, 0.5);
+  border: 0;
+  padding:10px;
+}
+
 
 //end mixin
 
@@ -736,16 +746,10 @@ body{
             float: right;
             display: $flex;
             flex-direction: column;
-            margin-left: 30px;
+            // margin-left: 10px;
 
             input{
-              height: 40px;
-              width: 350px;
-              border-radius: 5px;
-              margin-bottom: 15px;
-              background-color: rgba(193,202,202, 0.5);
-              border: 0;
-              padding:10px;
+              @include inputText;
             }
 
             a{
@@ -764,10 +768,71 @@ body{
                   }
                 }
               }
+            }
           }
-
-
         }
       }
-    }
   //end news-letter
+
+  // get in touch
+  #get-in-touch{
+    height: 1000px;
+    background-color: $white;
+
+    .container{
+      @include container;
+      height: 100%;
+      display: $flex;
+      align-items: center;
+
+
+      .slogan-container{
+        width: 100%;
+
+
+
+        >h4{
+          @include sectionH4;
+        }
+
+        >span{
+          @include slogans;
+          color: $woodSmokeBlack;
+        }
+
+        >span:last-of-type{
+          @include highlightedWord;
+          background-color:$highlightedBgGreen;
+          color: $blueLagoon;
+
+        }
+
+        p{
+          @include paragraphs;
+          color: $flintGray;
+        }
+
+        .input-container{
+
+        }
+
+        a{
+          @include href;
+
+          .see-all-button{
+            background-color: $blueLagoon;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+
+
+            &:hover{
+              background-color: $hoverGetInTouchButtonColor;
+                  }
+                }
+              }
+            }
+          }
+        }
+  // end get in touch

@@ -566,7 +566,6 @@ header .container > nav li {
   float: right;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
 }
 #news-letter .container .slogan-container .input-container input {
   height: 40px;
@@ -589,5 +588,55 @@ header .container > nav li {
   display: inline-block;
 }
 #news-letter .container .slogan-container .input-container a .see-all-button:hover {
+  background-color: #00A6A6;
+}
+
+#get-in-touch {
+  height: 1000px;
+  background-color: #fff;
+}
+#get-in-touch .container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#get-in-touch .container .slogan-container {
+  width: 100%;
+}
+#get-in-touch .container .slogan-container > h4 {
+  color: #038483;
+  margin-bottom: 30px;
+}
+#get-in-touch .container .slogan-container > span {
+  font-size: 60px;
+  font-weight: 900;
+  color: #121117;
+}
+#get-in-touch .container .slogan-container > span:last-of-type {
+  padding: 2px 10px;
+  background-color: #DAECED;
+  color: #038483;
+}
+#get-in-touch .container .slogan-container p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #706c68;
+  color: #706c68;
+}
+#get-in-touch .container .slogan-container a {
+  color: #fff;
+  text-decoration: none;
+}
+#get-in-touch .container .slogan-container a .see-all-button {
+  background-color: #038483;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+#get-in-touch .container .slogan-container a .see-all-button:hover {
   background-color: #00A6A6;
 }

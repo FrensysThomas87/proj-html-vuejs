@@ -1,29 +1,85 @@
 new Vue({
  el: '#app',
  data:{
-   commonProperties:
-     {
-       clockIcon:'fas fa-clock',
-       openingTime: 'Open Hours Mon-Sat-9:00-18:00',
-       telephoneIcon:'fas fa-phone',
-       telephoneNumber: '+1(305) 1234-5678',
-       messageIcon:'fas fa-envelope',
-       mailAdress:'hello@example.com',
-       facebookIcon: 'fab fa-facebook-f',
-       twitterIcon:'fab fa-twitter',
-       linkedinIcon:'fab fa-linkedin-in',
-       mapIcon: 'fas fa-map-marker-alt',
-       home: 'HOME',
-       about: 'ABOUT',
-       services: 'SERVICES',
-       pricing: 'PRICING',
-       blog: 'BLOG',
-       getInTouch: 'GET IN TOUCH',
-       logoFirst: 'NEX',
-       logoSecond: 'GEN',
-       adress: 'Main Avenue, 987',
-       getInTouch: 'GET IN TOUCH'
-     },
+
+
+      opening:{
+        openingTime:'Open Hours Mon-Sat-9:00-18:00',
+        icon:'fas fa-clock',
+      },
+
+
+       commonProperties:[
+        {
+           icon:'fas fa-phone',
+           name: '1(305) 1234-5678'
+         },
+
+         {
+           icon:'fas fa-envelope',
+           name: 'hello@example.com'
+         },
+
+         {
+           icon:'fab fa-facebook-f'
+         },
+
+         {
+           icon:'fab fa-twitter'
+         },
+
+         {
+           icon:'fab fa-linkedin-in'
+         },
+
+
+
+       ],
+
+
+       jumbotronLogo:
+         {
+           logoFirst:'NEX',
+           logoSecond:'GEN',
+
+         },
+
+
+
+
+       jumbotron:[
+            {
+             prop:'HOME',
+
+           },
+
+           {
+             prop:'ABOUT',
+
+           },
+
+           {
+             prop:'SERVICES',
+
+           },
+
+           {
+             prop:'PRICING',
+
+           },
+
+           {
+             prop:'BLOG',
+
+           },
+         ],
+
+         getInTouchBtn:{
+          name:'GET IN TOUCH'
+         },
+
+
+
 
      footerProperties:[{
        about:{

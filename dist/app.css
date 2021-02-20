@@ -31,7 +31,7 @@ header .container > nav {
   display: flex;
   justify-content: space-between;
 }
-header .container > nav li {
+header .container > nav ul li {
   list-style: none;
   display: inline-block;
   padding-right: 30px;

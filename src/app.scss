@@ -143,13 +143,17 @@ body{
         display: $flex;
         justify-content: space-between;
 
-
-
-        li{
-          @include navbar ;
-          color: $edwardGray;
-          line-height: 50px;
+        ul{
+          li{
+            @include navbar ;
+            color: $edwardGray;
+            line-height: 50px;
+          }
         }
+
+
+
+
 
 
       }

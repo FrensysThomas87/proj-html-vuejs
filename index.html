@@ -16,29 +16,20 @@
             <div class="container">
               <!-- navbar -->
               <nav>
-                <ul class="opening">
+                <ul>
                   <li>
-                    <i :class="commonProperties.clockIcon"></i>
-                    {{commonProperties.openingTime}}</li>
+                    <i :class="opening.icon"></i>
+                    {{opening.openingTime}}
+                  </li>
                 </ul>
 
-                <ul class="contacts">
-                  <li>
-                    <i :class="commonProperties.telephoneIcon"></i>
-                    {{commonProperties.telephoneNumber}}</li>
 
-                  <li>
-                    <i :class="commonProperties.messageIcon"></i>
-                    {{commonProperties.mailAdress}}</li>
+                <ul>
+                  <li v-for="element in commonProperties">
+                    <i :class="element.icon"></i>
+                    {{element.name}}
+                  </li>
 
-                  <li>
-                    <i :class="commonProperties.facebookIcon"></i>
-
-                  <li>
-                    <i :class="commonProperties.twitterIcon"></i>
-
-                  <li>
-                    <i :class="commonProperties.linkedinIcon"></i>
                 </ul>
               </nav>
               <!-- end navbar -->
@@ -52,17 +43,15 @@
           <div class="overlay">
             <div class="container">
               <div class="nex-gen">
-                <p><strong>{{commonProperties.logoFirst}}</strong></p>
-                <p><strong>{{commonProperties.logoSecond}}</strong></p>
+                <p><strong>{{jumbotronLogo.logoFirst}}</strong></p>
+                <p><strong>{{jumbotronLogo.logoSecond}}</strong></p>
+
               </div>
 
               <ul>
-                <li><a href="">{{commonProperties.home}}</a></li>
-                <li><a href="">{{commonProperties.about}}</a></li>
-                <li><a href="">{{commonProperties.services}}</a></li>
-                <li><a href="">{{commonProperties.pricing}}</a></li>
-                <li><a href="">{{commonProperties.blog}}</a></li>
-                <li><a  class="get-in-touch-btn" href="">{{commonProperties.getInTouch}}</a></li>
+                <li v-for="element in jumbotron"><a href="">{{element.prop}}</a></li>
+
+                <li><a  class="get-in-touch-btn" href="">{{getInTouchBtn.name}}</a></li>
               </ul>
 
               <div class="jumbotron-description">
@@ -403,7 +392,7 @@
           </div>
 
           <div class="contacts-container">
-            <span v-for="element in footerProperties">{{element.services.miao}}</span>
+            <!-- <span v-for="element in footerProperties">{{element.services.miao}}</span> -->
             <h2>Example Inc.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <p>Praesent diam Iacus, dapibus sed imperdiet consectetur.</p>

@@ -112,22 +112,9 @@ new Vue({
        footerDescription:{
          footDesc:'A functional HTML Template for Corporate & Business.',
        } ,
+  
 
-
-
-
-
-
-       about:{
-         ciao:'ciao',
-         arr: 'arr',
-       },
-
-       services:{
-         miao: 'miao',
-         bau: 'bau'
-       }
-     }],
+       },],
 
    },
 });

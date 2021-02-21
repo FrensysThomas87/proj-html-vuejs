@@ -403,13 +403,25 @@
               <div class="view-map">
                 VIEW MAP
               </div>
-
             </a>
-
           </div>
         </div>
       </section>
       <!--end Get in touch section -->
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <div class="footer-info-container">
+            <p><strong>{{jumbotronLogo.logoFirst}}</strong></p>
+            <p><strong>{{jumbotronLogo.logoSecond}}</strong></p><br>
+            <p v-for="element in footerProperties">{{element.footerDescription.footDesc}}</p>
+            <!-- <p v-for="element in commonProperties"><i :class="element"></i></p> -->
+
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
 
 
 

@@ -2,13 +2,13 @@ new Vue({
  el: '#app',
  data:{
 
-
+      // Orario di apertura header
       opening:{
         openingTime:'Open Hours Mon-Sat-9:00-18:00',
         icon:'fas fa-clock',
       },
 
-
+      // Proprietà comuni header footer
        commonProperties:[
         {
            icon:'fas fa-phone',
@@ -32,11 +32,19 @@ new Vue({
            icon:'fab fa-linkedin-in'
          },
 
+         {
+           name:'Main Avenue, 987',
+           addressIcon: 'fas fa-map-marker-alt'
+         },
 
 
        ],
 
 
+      // descrizione footer
+
+
+       // logo jumbotron
        jumbotronLogo:
          {
            logoFirst:'NEX',
@@ -46,7 +54,7 @@ new Vue({
 
 
 
-
+         // parte del jumbotron
        jumbotron:[
             {
              prop:'HOME',
@@ -74,6 +82,7 @@ new Vue({
            },
          ],
 
+         // bottone get in touch
          getInTouchBtn:{
           name:'GET IN TOUCH'
          },
@@ -81,7 +90,11 @@ new Vue({
 
 
 
+      // Proprietà footer
      footerProperties:[{
+       footerDescription:{
+         footDesc:'A functional HTML Template for Corporate & Business.',
+       } ,
        about:{
          ciao:'ciao',
          arr: 'arr',
@@ -93,29 +106,6 @@ new Vue({
        }
      }],
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- },
+   },
 });
 Vue.config.devtools = true;

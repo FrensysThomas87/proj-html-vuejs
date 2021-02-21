@@ -693,3 +693,37 @@ header .container > nav ul li {
   color: #038483;
   display: inline-block;
 }
+
+footer {
+  height: 1000px;
+  background-color: #121117;
+}
+footer .container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+footer .container .footer-info-container {
+  width: calc(100% / 4 - 40px);
+  margin: 20px;
+  background-color: #19191f;
+}
+footer .container .footer-info-container:first-child {
+  background-color: #121117;
+}
+footer .container .footer-info-container p {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+footer .container .footer-info-container p:first-child {
+  color: #038483;
+  background-color: rgba(51, 72, 73, 0.8);
+  padding: 10px 2px 10px 20px;
+  border-bottom-left-radius: 40%;
+  border-top-left-radius: 40%;
+}

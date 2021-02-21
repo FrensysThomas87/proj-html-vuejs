@@ -87,6 +87,23 @@ new Vue({
           name:'GET IN TOUCH'
          },
 
+         footContacts:[
+           {
+             icon: 'fas fa-phone',
+             name: '+1(305)1234-5678'
+           },
+
+           {
+             icon:'fas fa-envelope',
+             name:'hello@example.com'
+           },
+
+           {
+             icon: 'fas fa-map-marker-alt',
+             name: 'Main Avenue,987'
+           }
+         ],
+
 
 
 
@@ -95,6 +112,12 @@ new Vue({
        footerDescription:{
          footDesc:'A functional HTML Template for Corporate & Business.',
        } ,
+
+
+
+
+
+
        about:{
          ciao:'ciao',
          arr: 'arr',

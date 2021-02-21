@@ -708,6 +708,7 @@ footer .container {
 }
 footer .container .footer-info-container {
   width: calc(100% / 4 - 40px);
+  height: 400px;
   margin: 20px;
   background-color: #19191f;
 }
@@ -726,4 +727,24 @@ footer .container .footer-info-container p:first-child {
   padding: 10px 2px 10px 20px;
   border-bottom-left-radius: 40%;
   border-top-left-radius: 40%;
+}
+footer .container .footer-info-container .contacts {
+  margin-top: 20px;
+}
+footer .container .footer-info-container .contacts p:first-child {
+  background-color: #121117;
+  padding: 0;
+  color: #fff;
+}
+footer .container .footer-info-container a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .container .footer-info-container a .read-more-btn {
+  border-radius: 5px;
+  border: 1px solid #038483;
+  padding: 10px 15px;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 20px;
 }

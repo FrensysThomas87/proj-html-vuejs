@@ -904,12 +904,13 @@ footer{
     align-items: center;
     height: 100%;
 
-
-
-            .footer-info-container{
+          .footer-info-container{
               width: calc(100% / 4 - 40px);
+              height: 400px;
               margin: 20px;
               background-color: $servicesBgExellence;
+
+
 
               &:first-child{
                 background-color:$woodSmokeBlack;
@@ -929,6 +930,33 @@ footer{
                 padding: 10px 2px 10px 20px;
                 border-bottom-left-radius: 40%;
                 border-top-left-radius: 40%;
+              }
+
+              .contacts{
+                margin-top: 20px;
+                p:first-child{
+                  background-color: $woodSmokeBlack;
+                  padding: 0;
+                  color: $white;
+
+                }
+              }
+
+
+
+
+
+
+              a{
+                @include href;
+
+                .read-more-btn{
+                  @include readMoreButton;
+                  padding: 10px 25px;
+                  display: inline-block;
+                  margin-top: 20px;
+
+                }
               }
             }
   }

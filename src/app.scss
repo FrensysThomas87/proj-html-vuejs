@@ -47,6 +47,12 @@ body{
   width: 134px;
 }
 
+@mixin transparentButtonHover {
+  background-color: $blueLagoon;
+  color: $white;
+  transition: $transitions05s;
+}
+
 @mixin readMoreButton {
   border-radius: 5px;
   border: 1px solid $blueLagoon;
@@ -89,7 +95,6 @@ body{
 
 @mixin servicesHover {
   transform: translateY(-8px);
-  cursor: $cursPointer;
   transition: $transitions05s;
 }
 
@@ -281,8 +286,7 @@ body{
         transition: $transitions05s;
 
         &:hover{
-          background-color: $blueLagoon;
-          color: $white;
+          @include transparentButtonHover;
 
         }
       }
@@ -306,6 +310,7 @@ body{
         @include services;
         background-color: $white;
         margin-right: 20px;
+        transition: $transitions05s;
 
         >i{
         @include roundedIcons;
@@ -435,6 +440,11 @@ body{
             padding: 10px 25px;
             float: right;
             margin-top: -40px;
+            transition: $transitions05s;
+
+            &:hover{
+              @include transparentButtonHover;
+            }
           }
         }
       }
@@ -450,6 +460,7 @@ body{
           width: calc(100% /3 - 15px);
           background-color: $servicesBgExellence;
           margin: 0 15px 15px 0;
+          transition: $transitions05s;
 
           >i{
             @include icons;
@@ -478,6 +489,11 @@ body{
               width: 120px;
               color: $white;
               display: inline-block;
+              transition: $transitions05s;
+
+              &:hover{
+                @include transparentButtonHover;
+              }
             }
           }
         }
@@ -533,9 +549,26 @@ body{
           background-color: $white;
           padding: 30px;
           text-align: center;
+          position: relative;
+
+          .fas.fa-arrow-right{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: $blueLagoon;
+            font-size: 25px;
+            cursor: $cursPointer;
+            opacity: 0;
+            transition: $transitions05s;
+          }
 
           &:hover{
             @include servicesHover;
+          }
+
+          &:hover .fas.fa-arrow-right{
+            transition: $transitions05s;
+            opacity: 1;
           }
 
           .badge-popular-container{
@@ -558,7 +591,7 @@ body{
             padding-top:8px;
 
             &:hover{
-              @include servicesHover;
+              transform: translateY(-16px);
             }
 
             >h2{
@@ -645,9 +678,11 @@ body{
             text-align: center;
             float: right;
             margin-top: -40px;
+            transition: $transitions05s;
 
             &:hover{
               background-color: $hoverGetInTouchButtonColor;
+              transition: $transitions05s;
               }
             }
           }
@@ -679,7 +714,7 @@ body{
           .overlay{
             @include overlay;
             justify-content: center;
-            padding: 40px 50px;
+            padding:0 50px;
             border-radius: 5px;
             height: 99%;
             cursor: $cursPointer;
@@ -687,6 +722,7 @@ body{
 
             &:hover .more-info-container{
               opacity: 1;
+              margin-top: 40px;
             }
 
             &:hover h2{
@@ -699,7 +735,7 @@ body{
             }
 
             h2{
-              margin-top: 213px;
+              margin-top: 243px;
               transition: $transitions05s;
 
             }
@@ -707,6 +743,7 @@ body{
             .more-info-container{
               opacity: 0;
               transition: $transitions05s;
+
 
 
 

@@ -161,6 +161,7 @@ header .container > nav ul li:hover {
 #jumbotron > .overlay .read-more-btn:hover {
   background-color: #038483;
   color: #fff;
+  transition: 0.5s;
 }
 
 #three-adjectives-section {
@@ -180,6 +181,7 @@ header .container > nav ul li:hover {
   padding: 40px;
   background-color: #fff;
   margin-right: 20px;
+  transition: 0.5s;
 }
 #three-adjectives-section .container .services-div > i {
   background-color: #DAECED;
@@ -190,7 +192,6 @@ header .container > nav ul li:hover {
 }
 #three-adjectives-section .container .services-div:hover {
   transform: translateY(-8px);
-  cursor: pointer;
   transition: 0.5s;
 }
 #three-adjectives-section .container .services-div > h2 {
@@ -288,6 +289,12 @@ header .container > nav ul li:hover {
   padding: 10px 25px;
   float: right;
   margin-top: -40px;
+  transition: 0.5s;
+}
+#excellence-services .container .slogan-container a .see-all-button:hover {
+  background-color: #038483;
+  color: #fff;
+  transition: 0.5s;
 }
 #excellence-services .container .services-container {
   display: flex;
@@ -302,6 +309,7 @@ header .container > nav ul li:hover {
   width: calc(100% /3 - 15px);
   background-color: #19191f;
   margin: 0 15px 15px 0;
+  transition: 0.5s;
 }
 #excellence-services .container .services-container .services > i {
   color: #038483;
@@ -309,7 +317,6 @@ header .container > nav ul li:hover {
 }
 #excellence-services .container .services-container .services:hover {
   transform: translateY(-8px);
-  cursor: pointer;
   transition: 0.5s;
 }
 #excellence-services .container .services-container .services > h2 {
@@ -333,6 +340,12 @@ header .container > nav ul li:hover {
   width: 120px;
   color: #fff;
   display: inline-block;
+  transition: 0.5s;
+}
+#excellence-services .container .services-container .services a .read-more-btn:hover {
+  background-color: #038483;
+  color: #fff;
+  transition: 0.5s;
 }
 
 #pricing-table {
@@ -379,11 +392,25 @@ header .container > nav ul li:hover {
   background-color: #fff;
   padding: 30px;
   text-align: center;
+  position: relative;
+}
+#pricing-table .container .prices-container .prices .fas.fa-arrow-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #038483;
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s;
 }
 #pricing-table .container .prices-container .prices:hover {
   transform: translateY(-8px);
-  cursor: pointer;
   transition: 0.5s;
+}
+#pricing-table .container .prices-container .prices:hover .fas.fa-arrow-right {
+  transition: 0.5s;
+  opacity: 1;
 }
 #pricing-table .container .prices-container .prices .badge-popular-container {
   text-align: left;
@@ -402,9 +429,7 @@ header .container > nav ul li:hover {
   padding-top: 8px;
 }
 #pricing-table .container .prices-container .prices:nth-of-type(2):hover {
-  transform: translateY(-8px);
-  cursor: pointer;
-  transition: 0.5s;
+  transform: translateY(-16px);
 }
 #pricing-table .container .prices-container .prices:nth-of-type(2) > h2 {
   margin-bottom: 10px;
@@ -480,9 +505,11 @@ header .container > nav ul li:hover {
   text-align: center;
   float: right;
   margin-top: -40px;
+  transition: 0.5s;
 }
 #latest-news .container .slogan-container a .see-all-button:hover {
   background-color: #00A6A6;
+  transition: 0.5s;
 }
 #latest-news .latest-news-photos-container {
   display: flex;
@@ -512,13 +539,14 @@ header .container > nav ul li:hover {
   top: 0;
   left: 0;
   justify-content: center;
-  padding: 40px 50px;
+  padding: 0 50px;
   border-radius: 5px;
   height: 99%;
   cursor: pointer;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay:hover .more-info-container {
   opacity: 1;
+  margin-top: 40px;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay:hover h2 {
   margin-top: 120px;
@@ -528,7 +556,7 @@ header .container > nav ul li:hover {
   opacity: 1;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay h2 {
-  margin-top: 213px;
+  margin-top: 243px;
   transition: 0.5s;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay .more-info-container {

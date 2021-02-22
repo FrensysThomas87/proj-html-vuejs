@@ -412,10 +412,10 @@
       <!-- footer -->
       <footer>
         <div class="container">
-          <div class="footer-info-container">
-            <p><strong>{{jumbotronLogo.logoFirst}}</strong></p>
+          <div class="footer-contacts">
+            <p class="special-logo"><strong>{{jumbotronLogo.logoFirst}}</strong></p>
             <p><strong>{{jumbotronLogo.logoSecond}}</strong></p><br>
-            <p v-for="element in footerProperties">{{element.footerDescription.footDesc}}</p>
+            <p>{{footerDescription.footDesc}}</p>
             <div class="contacts">
               <p v-for="element in footContacts">
                 <i :class="element.icon"></i>
@@ -430,7 +430,7 @@
           </div>
 
             <div class="footer-info-container">
-              <p></p>
+              <p v-for="element in footerAbout"><i :class="element.icon"></i>{{element.name}}</p>
             </div>
 
             <div class="footer-info-container">

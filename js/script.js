@@ -104,17 +104,60 @@ new Vue({
            }
          ],
 
+         footerDescription:{
+           footDesc:'A functional HTML Template for Corporate & Business.',
+         } ,
+
 
 
 
       // Proprietà footer
-     footerProperties:[{
-       footerDescription:{
-         footDesc:'A functional HTML Template for Corporate & Business.',
-       } ,
-  
 
-       },],
+      footerAbout:[
+
+      {
+        name: 'About'
+      },
+
+
+      {
+        icon:'fas fa-chevron-right',
+        name:'The Company'
+      },
+
+      {
+        icon:'fas fa-chevron-right',
+        name:'Institutional'
+      },
+
+      {
+        icon:'fas fa-chevron-right',
+        name:'Social & Events'
+      },
+
+      {
+        icon:'fas fa-chevron-right',
+        name:'Innovation'
+      },
+
+      {
+        icon:'fas fa-chevron-right',
+        name:'Environment'
+      },
+
+      {
+        icon:'fas fa-chevron-right',
+        name:'Technology'
+      },
+
+
+    ]
+
+
+
+
+
+
 
    },
 });

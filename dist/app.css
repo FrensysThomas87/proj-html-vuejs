@@ -706,45 +706,69 @@ footer .container {
   align-items: center;
   height: 100%;
 }
-footer .container .footer-info-container {
+footer .container .footer-contacts {
   width: calc(100% / 4 - 40px);
   height: 400px;
   margin: 20px;
   background-color: #19191f;
 }
-footer .container .footer-info-container:first-child {
+footer .container .footer-contacts:first-child {
   background-color: #121117;
 }
-footer .container .footer-info-container p {
+footer .container .footer-contacts p {
   color: #fff;
   display: inline-block;
   font-size: 18px;
   margin-bottom: 15px;
 }
-footer .container .footer-info-container p:first-child {
+footer .container .footer-contacts .special-logo {
   color: #038483;
   background-color: rgba(51, 72, 73, 0.8);
   padding: 10px 2px 10px 20px;
   border-bottom-left-radius: 40%;
   border-top-left-radius: 40%;
 }
-footer .container .footer-info-container .contacts {
+footer .container .footer-contacts .contacts {
   margin-top: 20px;
 }
-footer .container .footer-info-container .contacts p:first-child {
+footer .container .footer-contacts .contacts p:first-child {
   background-color: #121117;
   padding: 0;
   color: #fff;
 }
-footer .container .footer-info-container a {
+footer .container .footer-contacts a {
   color: #fff;
   text-decoration: none;
 }
-footer .container .footer-info-container a .read-more-btn {
+footer .container .footer-contacts a .read-more-btn {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
   padding: 10px 25px;
   display: inline-block;
   margin-top: 20px;
+}
+footer .container .footer-info-container {
+  background-color: #19191f;
+  width: calc(100% / 3 - 20px);
+  height: 400px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 5px;
+}
+footer .container .footer-info-container p {
+  color: #706c68;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+footer .container .footer-info-container p i {
+  margin-right: 10px;
+}
+footer .container .footer-info-container p:first-child {
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
 }

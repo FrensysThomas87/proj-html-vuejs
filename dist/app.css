@@ -106,8 +106,8 @@ header .container > nav ul li:hover {
 #jumbotron > .overlay .container > ul li .full-blue-btn:hover {
   color: #fff;
 }
-#jumbotron > .overlay .container > ul li .get-in-touch-btn:hover {
-  background-color: #00A6A6;
+#jumbotron > .overlay .container > ul li .full-blue-btn:hover {
+  background-color: #41c457;
 }
 #jumbotron > .overlay .jumbotron-description {
   position: absolute;
@@ -137,7 +137,7 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#jumbotron > .overlay .jumbotron-description > a .get-in-touch-btn {
+#jumbotron > .overlay .jumbotron-description > a .full-blue-btn {
   padding: 10px 15px;
   background-color: #038483;
   border-radius: 5px;
@@ -147,8 +147,8 @@ header .container > nav ul li:hover {
   margin-top: 40px;
   transition: 0.5s;
 }
-#jumbotron > .overlay .jumbotron-description > a .get-in-touch-btn:hover {
-  background-color: #00A6A6;
+#jumbotron > .overlay .jumbotron-description > a .full-blue-btn:hover {
+  background-color: #41c457;
 }
 #jumbotron > .overlay .empty-bg-button {
   border-radius: 5px;
@@ -508,7 +508,7 @@ header .container > nav ul li:hover {
   transition: 0.5s;
 }
 #latest-news .container .slogan-container a .full-blue-button:hover {
-  background-color: #00A6A6;
+  background-color: #41c457;
   transition: 0.5s;
 }
 #latest-news .latest-news-photos-container {
@@ -636,7 +636,7 @@ header .container > nav ul li:hover {
   display: inline-block;
 }
 #news-letter .container .slogan-container .input-container a .full-blue-btn:hover {
-  background-color: #00A6A6;
+  background-color: #41c457;
 }
 
 #get-in-touch {
@@ -708,7 +708,7 @@ header .container > nav ul li:hover {
   transition: 0.5s;
 }
 #get-in-touch .container .slogan-container a .full-blue-button:hover {
-  background-color: #00A6A6;
+  background-color: #41c457;
   transition: 0.5s;
 }
 #get-in-touch .container .contacts-container {

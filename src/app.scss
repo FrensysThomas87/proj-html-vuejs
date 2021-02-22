@@ -229,7 +229,7 @@ body{
               }
             }
 
-            .get-in-touch-btn:hover{
+            .full-blue-btn:hover{
               background-color: $hoverGetInTouchButtonColor;
             }
           }
@@ -265,7 +265,7 @@ body{
         >a{
           @include href;
 
-          .get-in-touch-btn{
+          .full-blue-btn{
             @include getInTouchButton;
             width: 150px;
             display: inline-block;
@@ -273,7 +273,7 @@ body{
             transition: $transitions05s;
           }
 
-          .get-in-touch-btn:hover{
+          .full-blue-btn:hover{
             background-color: $hoverGetInTouchButtonColor;
           }
         }
@@ -1090,11 +1090,8 @@ footer{
             cursor: default;
           }
         }
+      }
     }
-
-
-
-  }
 
   .footer-bottom{
     background-color: #000;
@@ -1115,12 +1112,7 @@ footer{
           color: $blueLagoon;
         }
       }
-
-
     }
-
-
-
   }
 
   #go-top{

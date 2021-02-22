@@ -257,6 +257,7 @@ header .container > nav ul li:hover {
 
 #excellence-services {
   background-color: #121117;
+  position: relative;
 }
 #excellence-services .container {
   width: 1200px;
@@ -359,6 +360,17 @@ header .container > nav ul li:hover {
   background-color: #038483;
   color: #fff;
   transition: 0.5s;
+}
+#excellence-services #dots {
+  width: 150px;
+  height: 60px;
+  background-image: url("../img/bullets.png");
+  position: absolute;
+  background-size: cover;
+  left: 50%;
+  top: -30px;
+  transform: translateX(-50%);
+  opacity: 0.25;
 }
 
 #pricing-table {

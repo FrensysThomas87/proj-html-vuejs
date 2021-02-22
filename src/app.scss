@@ -410,6 +410,7 @@ img{
   // Excellence services
   #excellence-services{
     background-color: $woodSmokeBlack;
+    position: relative;
 
     .container{
       @include container;
@@ -515,6 +516,10 @@ img{
           }
         }
       }
+    }
+
+    #dots{
+      @include bgDots;
     }
   }
   //end excellence services

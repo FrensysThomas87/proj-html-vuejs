@@ -906,10 +906,12 @@ body{
             border-radius: 5px;
             text-align: center;
             display: inline-block;
+            transition: $transitions05s;
 
 
             &:hover{
               background-color: $hoverGetInTouchButtonColor;
+              transition: $transitions05s;
                   }
                 }
               }
@@ -927,6 +929,8 @@ body{
 
               .icon-contacts{
                 color: $blueLagoon;
+                cursor: $cursPointer;
+
 
                 >i{
                   @include roundedIcons;
@@ -944,6 +948,11 @@ body{
                   @include readMoreButton;
                   color: $blueLagoon;
                   display: inline-block;
+                  transition: $transitions05s;
+
+                  &:hover{
+                    @include transparentButtonHover;
+                  }
                 }
               }
             }
@@ -1003,12 +1012,13 @@ footer{
 
           .contacts{
             margin-top: 20px;
-            p:first-child{
-              background-color: $woodSmokeBlack;
-              padding: 0;
 
+            p:hover{
+              color: $blueLagoon;
+              cursor: $cursPointer;
 
             }
+
           }
 
 
@@ -1024,6 +1034,11 @@ footer{
               padding: 10px 25px;
               display: inline-block;
               margin-top: 20px;
+              transition: $transitions05s;
+
+              &:hover{
+                @include transparentButtonHover;
+              }
 
             }
           }
@@ -1039,11 +1054,26 @@ footer{
           border-radius: 5px;
           height: 330px;
 
+          &:hover{
+
+            transition: $transitions05s;
+            @include servicesHover;
+          }
+
+
           p{
             color: $edwardGray;
             font-size: 18px;
             margin-bottom: 10px;
             margin-left: 8px;
+            transition: $transitions05s;
+            cursor: $cursPointer;
+
+            &:hover{
+              color: $blueLagoon;
+            }
+
+
 
             i{
               margin-right: 10px;
@@ -1056,6 +1086,7 @@ footer{
             font-size: 20px;
             margin-bottom: 20px;
             margin-left: 0;
+            cursor: default;
           }
         }
     }

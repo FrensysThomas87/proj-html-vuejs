@@ -705,9 +705,11 @@ header .container > nav ul li:hover {
   border-radius: 5px;
   text-align: center;
   display: inline-block;
+  transition: 0.5s;
 }
 #get-in-touch .container .slogan-container a .see-all-button:hover {
   background-color: #00A6A6;
+  transition: 0.5s;
 }
 #get-in-touch .container .contacts-container {
   height: 550px;
@@ -720,6 +722,7 @@ header .container > nav ul li:hover {
 }
 #get-in-touch .container .contacts-container .icon-contacts {
   color: #038483;
+  cursor: pointer;
 }
 #get-in-touch .container .contacts-container .icon-contacts > i {
   background-color: #DAECED;
@@ -740,6 +743,12 @@ header .container > nav ul li:hover {
   padding: 10px 15px;
   color: #038483;
   display: inline-block;
+  transition: 0.5s;
+}
+#get-in-touch .container .contacts-container a .view-map:hover {
+  background-color: #038483;
+  color: #fff;
+  transition: 0.5s;
 }
 
 footer {
@@ -784,9 +793,9 @@ footer .container .footer-elements-container .footer-contacts .special-logo {
 footer .container .footer-elements-container .footer-contacts .contacts {
   margin-top: 20px;
 }
-footer .container .footer-elements-container .footer-contacts .contacts p:first-child {
-  background-color: #121117;
-  padding: 0;
+footer .container .footer-elements-container .footer-contacts .contacts p:hover {
+  color: #038483;
+  cursor: pointer;
 }
 footer .container .footer-elements-container .footer-contacts a {
   color: #fff;
@@ -799,6 +808,12 @@ footer .container .footer-elements-container .footer-contacts a .read-more-btn {
   padding: 10px 25px;
   display: inline-block;
   margin-top: 20px;
+  transition: 0.5s;
+}
+footer .container .footer-elements-container .footer-contacts a .read-more-btn:hover {
+  background-color: #038483;
+  color: #fff;
+  transition: 0.5s;
 }
 footer .container .footer-elements-container .footer-info-container {
   background-color: #19191f;
@@ -808,11 +823,21 @@ footer .container .footer-elements-container .footer-info-container {
   border-radius: 5px;
   height: 330px;
 }
+footer .container .footer-elements-container .footer-info-container:hover {
+  transition: 0.5s;
+  transform: translateY(-8px);
+  transition: 0.5s;
+}
 footer .container .footer-elements-container .footer-info-container p {
   color: #a2adae;
   font-size: 18px;
   margin-bottom: 10px;
   margin-left: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+footer .container .footer-elements-container .footer-info-container p:hover {
+  color: #038483;
 }
 footer .container .footer-elements-container .footer-info-container p i {
   margin-right: 10px;
@@ -823,6 +848,7 @@ footer .container .footer-elements-container .footer-info-container p:first-chil
   font-size: 20px;
   margin-bottom: 20px;
   margin-left: 0;
+  cursor: default;
 }
 footer .footer-bottom {
   background-color: #000;

@@ -239,12 +239,8 @@ header .container > nav ul li:hover {
   font-size: 20px;
   margin-right: 8px;
 }
-#network-section .img-coffee-container {
-  width: 50%;
-  height: 951px;
-}
-#network-section .img-coffee-container > img {
-  width: 100%;
+#network-section img {
+  width: 951px;
 }
 
 #excellence-services {

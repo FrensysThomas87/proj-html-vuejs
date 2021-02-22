@@ -344,7 +344,6 @@ body{
 
     .about-network{
       width: 30%;
-
       margin-top: 100px;
 
 
@@ -385,15 +384,14 @@ body{
       }
     }
 
-    .img-coffee-container{
-      width: 50%;
-      height: 951px;
 
-      >img{
-        width: 100%;
+
+
+      img{
+        width: 951px;
 
       }
-    }
+
   }
   //end Network section
 
@@ -1087,6 +1085,7 @@ footer{
 
             i{
               margin-right: 10px;
+
             }
           }
 

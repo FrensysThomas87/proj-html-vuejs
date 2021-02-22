@@ -45,7 +45,7 @@ header .container > nav ul li:hover {
 }
 
 #jumbotron {
-  height: 80vh;
+  height: 100vh;
   background-image: url("../img/hero-image.png");
   background-position: bottom;
   background-size: cover;

@@ -429,6 +429,30 @@ header .container > nav ul li:hover {
   cursor: pointer;
   opacity: 0;
   transition: 0.5s;
+  -webkit-animation-name: bgGreen;
+          animation-name: bgGreen;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  border-radius: 50%;
+  padding: 10px;
+}
+@-webkit-keyframes bgGreen {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #41c457;
+  }
+}
+@keyframes bgGreen {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #41c457;
+  }
 }
 #pricing-table .container .prices-container .prices:hover {
   transform: translateY(-8px);

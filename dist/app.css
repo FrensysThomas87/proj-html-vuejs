@@ -707,8 +707,7 @@ footer .container {
   height: 100%;
 }
 footer .container .footer-contacts {
-  width: calc(100% / 4 - 40px);
-  height: 400px;
+  width: calc(100% / 3 - 40px);
   margin: 20px;
   background-color: #19191f;
 }
@@ -720,6 +719,9 @@ footer .container .footer-contacts p {
   display: inline-block;
   font-size: 18px;
   margin-bottom: 15px;
+}
+footer .container .footer-contacts p i {
+  margin-right: 10px;
 }
 footer .container .footer-contacts .special-logo {
   color: #038483;
@@ -751,7 +753,6 @@ footer .container .footer-contacts a .read-more-btn {
 footer .container .footer-info-container {
   background-color: #19191f;
   width: calc(100% / 3 - 20px);
-  height: 400px;
   margin: 20px;
   padding: 30px;
   border-radius: 5px;

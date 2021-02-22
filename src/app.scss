@@ -905,10 +905,10 @@ footer{
     height: 100%;
 
           .footer-contacts{
-              width: calc(100% / 4 - 40px);
-              height: 400px;
+              width: calc(100% / 3 - 40px);
               margin: 20px;
               background-color: $servicesBgExellence;
+
 
 
 
@@ -922,6 +922,10 @@ footer{
                 display: inline-block;
                 font-size: 18px;
                 margin-bottom: 15px;
+
+                i{
+                  margin-right: 10px;
+                }
 
               }
 
@@ -966,7 +970,7 @@ footer{
             .footer-info-container{
               background-color: $servicesBgExellence;
               width:calc(100% / 3 - 20px);
-              height: 400px;
+
               margin: 20px;
               padding: 30px;
               border-radius: 5px;

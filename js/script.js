@@ -151,7 +151,90 @@ new Vue({
       },
 
 
-    ]
+    ],
+
+
+    footerServices:[
+
+    {
+      name: 'Services'
+    },
+
+
+    {
+      icon:'fas fa-chevron-right',
+      name:'Audit & Assurance'
+    },
+
+    {
+      icon:'fas fa-chevron-right',
+      name:'Financial Advisory'
+    },
+
+    {
+      icon:'fas fa-chevron-right',
+      name:'Analytics M&A'
+    },
+
+    {
+      icon:'fas fa-chevron-right',
+      name:'Middle Marketing'
+    },
+
+    {
+      icon:'fas fa-chevron-right',
+      name:'Legal Consulting'
+    },
+
+    {
+      icon:'fas fa-chevron-right',
+      name:'Regulatory Risk'
+    },
+
+
+  ],
+
+
+  footerSupport:[
+
+  {
+    name: 'Support'
+  },
+
+
+  {
+    icon:'fas fa-chevron-right',
+    name:'Responsability'
+  },
+
+  {
+    icon:'fas fa-chevron-right',
+    name:'Terms of Use'
+  },
+
+  {
+    icon:'fas fa-chevron-right',
+    name:'About Cookies'
+  },
+
+  {
+    icon:'fas fa-chevron-right',
+    name:'Privacy Policy'
+  },
+
+  {
+    icon:'fas fa-chevron-right',
+    name:'Accessibility'
+  },
+
+  {
+    icon:'fas fa-chevron-right',
+    name:'Information'
+  },
+
+
+],
+
 
 
 

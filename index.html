@@ -434,11 +434,11 @@
             </div>
 
             <div class="footer-info-container">
-
+              <p v-for="element in footerServices"><i :class="element.icon"></i>{{element.name}}</p>
             </div>
 
             <div class="footer-info-container">
-
+              <p v-for="element in footerSupport"><i :class="element.icon"></i>{{element.name}}</p>
             </div>
 
 

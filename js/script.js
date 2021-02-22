@@ -87,6 +87,7 @@ new Vue({
           name:'GET IN TOUCH'
          },
 
+        //Contatti footer
          footContacts:[
            {
              icon: 'fas fa-phone',
@@ -239,6 +240,8 @@ footerCopyrightFirst: 'Enjoy the low price. We are tracking any intention of pir
 footerCopyrightSecond: '2020 NEXGEN is Proudly Powered by ',
 
 codings: 'Codings.',
+
+// Proprietà Footer
 
 
 

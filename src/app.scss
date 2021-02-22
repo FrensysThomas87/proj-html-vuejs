@@ -81,7 +81,7 @@ body{
 @mixin paragraphs {
   margin-top: 20px;
   font-size: 18px;
-  color: $flintGray;
+  color: $edwardGray;
 }
 
 @mixin sectionH4 {
@@ -186,6 +186,8 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   position: $posRelative;
+
+
 
     >.overlay{
       @include overlay ;
@@ -433,7 +435,7 @@ img{
 
         span:last-of-type{
           @include highlightedWord;
-          background-color: #0E272D;
+          background-color: $darkBgGreen;
         }
 
         p{
@@ -530,8 +532,7 @@ img{
 
     .container{
       @include container;
-      // display: $flex;
-      // justify-content: center;
+
       padding: 100px 0;
 
       .slogan-container{
@@ -819,7 +820,7 @@ img{
 
         >span:first-of-type{
           @include highlightedWord;
-          background-color: #0E272D;
+          background-color: $darkBgGreen;
 
         }
 
@@ -1045,11 +1046,6 @@ footer{
 
           }
 
-
-
-
-
-
           a{
             @include href;
 
@@ -1150,7 +1146,7 @@ footer{
     bottom: 20px;
 
     i{
-      color: #000;
+      color: $scarpaFlowGray;
       font-size: 30px;
       top: 50%;
       left: 50%;

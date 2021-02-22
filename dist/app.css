@@ -97,13 +97,13 @@ header .container > nav ul li:hover {
 #jumbotron > .overlay .container > ul li > a:hover {
   color: #038483;
 }
-#jumbotron > .overlay .container > ul li .get-in-touch-btn {
+#jumbotron > .overlay .container > ul li .full-blue-btn {
   padding: 10px 15px;
   background-color: #038483;
   border-radius: 5px;
   width: 134px;
 }
-#jumbotron > .overlay .container > ul li .get-in-touch-btn:hover {
+#jumbotron > .overlay .container > ul li .full-blue-btn:hover {
   color: #fff;
 }
 #jumbotron > .overlay .container > ul li .get-in-touch-btn:hover {
@@ -150,7 +150,7 @@ header .container > nav ul li:hover {
 #jumbotron > .overlay .jumbotron-description > a .get-in-touch-btn:hover {
   background-color: #00A6A6;
 }
-#jumbotron > .overlay .read-more-btn {
+#jumbotron > .overlay .empty-bg-button {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
@@ -158,7 +158,7 @@ header .container > nav ul li:hover {
   margin-left: 15px;
   transition: 0.5s;
 }
-#jumbotron > .overlay .read-more-btn:hover {
+#jumbotron > .overlay .empty-bg-button:hover {
   background-color: #038483;
   color: #fff;
   transition: 0.5s;
@@ -282,7 +282,7 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#excellence-services .container .slogan-container a .see-all-button {
+#excellence-services .container .slogan-container a .empty-bg-button {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
@@ -291,7 +291,7 @@ header .container > nav ul li:hover {
   margin-top: -40px;
   transition: 0.5s;
 }
-#excellence-services .container .slogan-container a .see-all-button:hover {
+#excellence-services .container .slogan-container a .empty-bg-button:hover {
   background-color: #038483;
   color: #fff;
   transition: 0.5s;
@@ -332,7 +332,7 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#excellence-services .container .services-container .services a .read-more-btn {
+#excellence-services .container .services-container .services a .empty-bg-button {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
@@ -342,7 +342,7 @@ header .container > nav ul li:hover {
   display: inline-block;
   transition: 0.5s;
 }
-#excellence-services .container .services-container .services a .read-more-btn:hover {
+#excellence-services .container .services-container .services a .empty-bg-button:hover {
   background-color: #038483;
   color: #fff;
   transition: 0.5s;
@@ -498,7 +498,7 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#latest-news .container .slogan-container a .see-all-button {
+#latest-news .container .slogan-container a .full-blue-button {
   background-color: #038483;
   padding: 10px 20px;
   border-radius: 5px;
@@ -507,7 +507,7 @@ header .container > nav ul li:hover {
   margin-top: -40px;
   transition: 0.5s;
 }
-#latest-news .container .slogan-container a .see-all-button:hover {
+#latest-news .container .slogan-container a .full-blue-button:hover {
   background-color: #00A6A6;
   transition: 0.5s;
 }
@@ -628,14 +628,14 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#news-letter .container .slogan-container .input-container a .see-all-button {
+#news-letter .container .slogan-container .input-container a .full-blue-btn {
   background-color: #038483;
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;
 }
-#news-letter .container .slogan-container .input-container a .see-all-button:hover {
+#news-letter .container .slogan-container .input-container a .full-blue-btn:hover {
   background-color: #00A6A6;
 }
 
@@ -699,7 +699,7 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#get-in-touch .container .slogan-container a .see-all-button {
+#get-in-touch .container .slogan-container a .full-blue-button {
   background-color: #038483;
   padding: 10px 20px;
   border-radius: 5px;
@@ -707,7 +707,7 @@ header .container > nav ul li:hover {
   display: inline-block;
   transition: 0.5s;
 }
-#get-in-touch .container .slogan-container a .see-all-button:hover {
+#get-in-touch .container .slogan-container a .full-blue-button:hover {
   background-color: #00A6A6;
   transition: 0.5s;
 }
@@ -736,7 +736,7 @@ header .container > nav ul li:hover {
   color: #fff;
   text-decoration: none;
 }
-#get-in-touch .container .contacts-container a .view-map {
+#get-in-touch .container .contacts-container a .empty-bg-button {
   margin-top: 25px;
   border-radius: 5px;
   border: 1px solid #038483;
@@ -745,14 +745,14 @@ header .container > nav ul li:hover {
   display: inline-block;
   transition: 0.5s;
 }
-#get-in-touch .container .contacts-container a .view-map:hover {
+#get-in-touch .container .contacts-container a .empty-bg-button:hover {
   background-color: #038483;
   color: #fff;
   transition: 0.5s;
 }
 
 footer {
-  height: 700px;
+  height: 650px;
   background-color: #121117;
   padding: 100px 0 0 0;
 }
@@ -801,7 +801,7 @@ footer .container .footer-elements-container .footer-contacts a {
   color: #fff;
   text-decoration: none;
 }
-footer .container .footer-elements-container .footer-contacts a .read-more-btn {
+footer .container .footer-elements-container .footer-contacts a .empty-bg-button {
   border-radius: 5px;
   border: 1px solid #038483;
   padding: 10px 15px;
@@ -810,7 +810,7 @@ footer .container .footer-elements-container .footer-contacts a .read-more-btn {
   margin-top: 20px;
   transition: 0.5s;
 }
-footer .container .footer-elements-container .footer-contacts a .read-more-btn:hover {
+footer .container .footer-elements-container .footer-contacts a .empty-bg-button:hover {
   background-color: #038483;
   color: #fff;
   transition: 0.5s;
@@ -822,6 +822,7 @@ footer .container .footer-elements-container .footer-info-container {
   padding: 30px;
   border-radius: 5px;
   height: 330px;
+  transition: 0.5s;
 }
 footer .container .footer-elements-container .footer-info-container:hover {
   transition: 0.5s;

@@ -221,7 +221,7 @@ body{
               }
             }
 
-            .get-in-touch-btn{
+            .full-blue-btn{
               @include getInTouchButton;
 
               &:hover{
@@ -279,7 +279,7 @@ body{
         }
       }
 
-      .read-more-btn{
+      .empty-bg-button{
         @include readMoreButton;
         display: inline-block;
         margin-left: 15px;
@@ -435,7 +435,7 @@ body{
           @include href;
 
 
-          .see-all-button{
+          .empty-bg-button{
             @include readMoreButton;
             padding: 10px 25px;
             float: right;
@@ -483,7 +483,7 @@ body{
           a{
             @include href;
 
-            .read-more-btn{
+            .empty-bg-button{
               @include readMoreButton;
               margin-top: 20px;
               width: 120px;
@@ -671,7 +671,7 @@ body{
         a{
           @include href;
 
-          .see-all-button{
+          .full-blue-button{
             background-color: $blueLagoon;
             padding: 10px 20px;
             border-radius: 5px;
@@ -821,7 +821,7 @@ body{
             a{
               @include href;
 
-              .see-all-button{
+              .full-blue-btn{
                 background-color: $blueLagoon;
                 padding: 10px 20px;
                 border-radius: 5px;
@@ -900,7 +900,7 @@ body{
         a{
           @include href;
 
-          .see-all-button{
+          .full-blue-button{
             background-color: $blueLagoon;
             padding: 10px 20px;
             border-radius: 5px;
@@ -943,7 +943,7 @@ body{
               a{
                 @include href;
 
-                .view-map{
+                .empty-bg-button{
                   margin-top: 25px;
                   @include readMoreButton;
                   color: $blueLagoon;
@@ -962,7 +962,7 @@ body{
 
   // footer
 footer{
-  height: 700px;
+  height: 650px;
   background-color: $woodSmokeBlack;
   padding: 100px 0 0 0;
 
@@ -1029,7 +1029,7 @@ footer{
           a{
             @include href;
 
-            .read-more-btn{
+            .empty-bg-button{
               @include readMoreButton;
               padding: 10px 25px;
               display: inline-block;
@@ -1053,6 +1053,7 @@ footer{
           padding: 30px;
           border-radius: 5px;
           height: 330px;
+          transition: $transitions05s;
 
           &:hover{
 

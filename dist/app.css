@@ -605,6 +605,7 @@ header .container > nav ul li:hover {
   background-image: url("../img/bg-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 #news-letter .container {
   width: 1200px;

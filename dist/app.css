@@ -674,6 +674,7 @@ header .container > nav ul li:hover {
   background-color: rgba(193, 202, 202, 0.5);
   border: 0;
   padding: 10px;
+  outline: none;
 }
 #news-letter .container .slogan-container .input-container a {
   color: #fff;
@@ -736,6 +737,7 @@ header .container > nav ul li:hover {
   background-color: rgba(193, 202, 202, 0.5);
   border: 0;
   padding: 10px;
+  outline: none;
 }
 #get-in-touch .container .slogan-container .input-container > textarea {
   width: 705px;
@@ -745,6 +747,7 @@ header .container > nav ul li:hover {
   padding: 10px;
   margin-bottom: 20px;
   resize: none;
+  outline: none;
 }
 #get-in-touch .container .slogan-container a {
   color: #fff;

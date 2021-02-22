@@ -123,6 +123,7 @@ body{
   background-color: $inputColor;
   border: 0;
   padding:10px;
+  outline: none;
 }
 
 @mixin bgDots {
@@ -267,8 +268,6 @@ body{
         .jumbotron-title:last-of-type{
           background-color: $customerBgColor;
           padding: 0 5px;
-          // padding: 10px;
-
         }
 
         >p{
@@ -478,8 +477,6 @@ img{
             @include icons;
             font-size: 30px;
             transition: $transitions05s;
-
-
           }
 
           &:hover{
@@ -532,7 +529,6 @@ img{
 
     .container{
       @include container;
-
       padding: 100px 0;
 
       .slogan-container{
@@ -557,7 +553,6 @@ img{
         p{
           @include paragraphs;
         }
-
       }
 
       .prices-container{
@@ -586,7 +581,6 @@ img{
             transition: $transitions05s;
             animation-name: bgGreen;
             animation-iteration-count: infinite;
-            
             animation-duration: 2s;
             border-radius:50%;
             padding: 10px;
@@ -601,7 +595,6 @@ img{
 
           &:hover{
             @include transYHover;
-
           }
 
           &:hover .fas.fa-arrow-right{
@@ -782,9 +775,6 @@ img{
               opacity: 0;
               transition: $transitions05s;
 
-
-
-
               >span{
                 margin-right: 15px;
 
@@ -812,8 +802,6 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
-
 
     .container{
       @include container;
@@ -855,6 +843,7 @@ img{
 
             input{
               @include inputText;
+
             }
 
             a{
@@ -890,13 +879,8 @@ img{
       display: $flex;
       align-items: center;
 
-
-
       .slogan-container{
         width: 100%;
-
-
-
 
         >h4{
           @include sectionH4;
@@ -921,6 +905,7 @@ img{
 
         .input-container{
           margin-top: 50px;
+
           >input{
             @include inputText;
           }
@@ -933,6 +918,7 @@ img{
             padding: 10px;
             margin-bottom: 20px;
             resize: none;
+            outline: none;
           }
         }
 
@@ -975,8 +961,6 @@ img{
                   @include roundedIcons;
                   margin-right: 10px;
                 }
-
-
               }
 
               a{
@@ -1021,10 +1005,6 @@ footer{
           margin: 20px;
           background-color: $servicesBgExellence;
 
-
-
-
-
           &:first-child{
             background-color:$woodSmokeBlack;
           }
@@ -1038,7 +1018,6 @@ footer{
             i{
               margin-right: 10px;
             }
-
           }
 
           .special-logo{
@@ -1057,7 +1036,6 @@ footer{
               cursor: $cursPointer;
 
             }
-
           }
 
           a{
@@ -1073,11 +1051,8 @@ footer{
               &:hover{
                 @include transparentButtonHover;
               }
-
             }
           }
-
-
         }
 
         .footer-info-container{
@@ -1090,7 +1065,6 @@ footer{
           transition: $transitions05s;
 
           &:hover{
-
             transition: $transitions05s;
             @include transYHover;
           }

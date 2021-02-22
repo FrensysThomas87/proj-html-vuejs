@@ -125,6 +125,18 @@ body{
   padding:10px;
 }
 
+@mixin bgDots {
+  width: 150px;
+  height: 60px;
+  background-image: url($middleDots);
+  position: absolute;
+  background-size: cover;
+  left: 50%;
+  top:-30px;
+  transform: translateX(-50%);
+  opacity: 0.25;
+}
+
 
 //end mixin
 
@@ -341,6 +353,7 @@ body{
   #network-section{
     display: $flex;
     justify-content: flex-end;
+    position: relative;
 
     .about-network{
       width: 30%;
@@ -384,15 +397,14 @@ body{
       }
     }
 
-
-
-
-      img{
-        width: 951px;
-
-      }
-
+img{
+  width: 50%;
   }
+
+  #dots{
+    @include bgDots;
+  }
+}
   //end Network section
 
   // Excellence services

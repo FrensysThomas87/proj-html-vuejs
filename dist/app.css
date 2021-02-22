@@ -206,6 +206,7 @@ header .container > nav ul li:hover {
 #network-section {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 #network-section .about-network {
   width: 30%;
@@ -240,7 +241,18 @@ header .container > nav ul li:hover {
   margin-right: 8px;
 }
 #network-section img {
-  width: 951px;
+  width: 50%;
+}
+#network-section #dots {
+  width: 150px;
+  height: 60px;
+  background-image: url("../img/bullets.png");
+  position: absolute;
+  background-size: cover;
+  left: 50%;
+  top: -30px;
+  transform: translateX(-50%);
+  opacity: 0.25;
 }
 
 #excellence-services {

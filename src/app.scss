@@ -40,7 +40,7 @@ body{
   text-decoration: none;
 }
 
-@mixin getInTouchButton {
+@mixin fullBlueButton {
   padding: 10px 15px;
   background-color: $blueLagoon;
   border-radius: 5px;
@@ -53,7 +53,7 @@ body{
   transition: $transitions05s;
 }
 
-@mixin readMoreButton {
+@mixin emptyBgButton {
   border-radius: 5px;
   border: 1px solid $blueLagoon;
   padding: 10px 15px;
@@ -222,7 +222,7 @@ body{
             }
 
             .full-blue-btn{
-              @include getInTouchButton;
+              @include fullBlueButton;
 
               &:hover{
                 color: $white;
@@ -230,7 +230,7 @@ body{
             }
 
             .full-blue-btn:hover{
-              background-color: $hoverGetInTouchButtonColor;
+              background-color: $hoverFullBlueButtonColor;
             }
           }
         }
@@ -266,7 +266,7 @@ body{
           @include href;
 
           .full-blue-btn{
-            @include getInTouchButton;
+            @include fullBlueButton;
             width: 150px;
             display: inline-block;
             margin-top: 40px;
@@ -274,13 +274,13 @@ body{
           }
 
           .full-blue-btn:hover{
-            background-color: $hoverGetInTouchButtonColor;
+            background-color: $hoverFullBlueButtonColor;
           }
         }
       }
 
       .empty-bg-button{
-        @include readMoreButton;
+        @include emptyBgButton;
         display: inline-block;
         margin-left: 15px;
         transition: $transitions05s;
@@ -435,7 +435,7 @@ body{
 
 
           .empty-bg-button{
-            @include readMoreButton;
+            @include emptyBgButton;
             padding: 10px 25px;
             float: right;
             margin-top: -40px;
@@ -483,7 +483,7 @@ body{
             @include href;
 
             .empty-bg-button{
-              @include readMoreButton;
+              @include emptyBgButton;
               margin-top: 20px;
               width: 120px;
               color: $white;
@@ -682,7 +682,7 @@ body{
             transition: $transitions05s;
 
             &:hover{
-              background-color: $hoverGetInTouchButtonColor;
+              background-color: $hoverFullBlueButtonColor;
               transition: $transitions05s;
               }
             }
@@ -831,7 +831,7 @@ body{
 
 
                 &:hover{
-                  background-color: $hoverGetInTouchButtonColor;
+                  background-color: $hoverFullBlueButtonColor;
                   }
                 }
               }
@@ -911,7 +911,7 @@ body{
 
 
             &:hover{
-              background-color: $hoverGetInTouchButtonColor;
+              background-color: $hoverFullBlueButtonColor;
               transition: $transitions05s;
                   }
                 }
@@ -946,7 +946,7 @@ body{
 
                 .empty-bg-button{
                   margin-top: 25px;
-                  @include readMoreButton;
+                  @include emptyBgButton;
                   color: $blueLagoon;
                   display: inline-block;
                   transition: $transitions05s;
@@ -1031,7 +1031,7 @@ footer{
             @include href;
 
             .empty-bg-button{
-              @include readMoreButton;
+              @include emptyBgButton;
               padding: 10px 25px;
               display: inline-block;
               margin-top: 20px;

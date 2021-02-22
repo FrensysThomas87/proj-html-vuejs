@@ -464,10 +464,18 @@ body{
           >i{
             @include icons;
             font-size: 30px;
+            transition: $transitions05s;
+
+
           }
 
           &:hover{
             @include transYHover;
+          }
+
+          &:hover > i{
+            color: $white;
+            transition: $transitions05s;
           }
 
           >h2{

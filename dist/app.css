@@ -314,9 +314,14 @@ header .container > nav ul li:hover {
 #excellence-services .container .services-container .services > i {
   color: #038483;
   font-size: 30px;
+  transition: 0.5s;
 }
 #excellence-services .container .services-container .services:hover {
   transform: translateY(-8px);
+  transition: 0.5s;
+}
+#excellence-services .container .services-container .services:hover > i {
+  color: #fff;
   transition: 0.5s;
 }
 #excellence-services .container .services-container .services > h2 {

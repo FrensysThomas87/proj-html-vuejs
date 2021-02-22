@@ -412,39 +412,59 @@
       <!-- footer -->
       <footer>
         <div class="container">
-          <div class="footer-contacts">
-            <p class="special-logo"><strong>{{jumbotronLogo.logoFirst}}</strong></p>
-            <p><strong>{{jumbotronLogo.logoSecond}}</strong></p><br>
-            <p>{{footerDescription.footDesc}}</p>
-            <div class="contacts">
-              <p v-for="element in footContacts">
-                <i :class="element.icon"></i>
-                {{element.name}}
-              </p>
-            </div>
-          <a href="">
-              <div class="read-more-btn">
-                {{getInTouchBtn.name}}
+          <div class="footer-elements-container">
+            <div class="footer-contacts">
+              <p class="special-logo"><strong>{{jumbotronLogo.logoFirst}}</strong></p>
+              <p><strong>{{jumbotronLogo.logoSecond}}</strong></p><br>
+              <p>{{footerDescription.footDesc}}</p>
+              <div class="contacts">
+                <p v-for="element in footContacts">
+                  <i :class="element.icon"></i>
+                  {{element.name}}
+                </p>
               </div>
-            </a>
+            <a href="">
+                <div class="read-more-btn">
+                  {{getInTouchBtn.name}}
+                </div>
+              </a>
+            </div>
+
+              <div class="footer-info-container">
+                <p v-for="element in footerAbout"><i :class="element.icon"></i>{{element.name}}</p>
+              </div>
+
+              <div class="footer-info-container">
+                <p v-for="element in footerServices"><i :class="element.icon"></i>{{element.name}}</p>
+              </div>
+
+              <div class="footer-info-container">
+                <p v-for="element in footerSupport"><i :class="element.icon"></i>{{element.name}}</p>
+              </div>
+
+          </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-copyright">
+            <p>{{footerCopyrightFirst}}</p>
           </div>
 
-            <div class="footer-info-container">
-              <p v-for="element in footerAbout"><i :class="element.icon"></i>{{element.name}}</p>
-            </div>
-
-            <div class="footer-info-container">
-              <p v-for="element in footerServices"><i :class="element.icon"></i>{{element.name}}</p>
-            </div>
-
-            <div class="footer-info-container">
-              <p v-for="element in footerSupport"><i :class="element.icon"></i>{{element.name}}</p>
-            </div>
-
-
-
-
+          <div class="footer-copyright">
+            <p>&copy {{footerCopyrightSecond}} <span>{{codings}}</span></p>
+          </div>
         </div>
+
+        <a href="">
+          <div id="go-top">
+            <i class="fas fa-arrow-up"></i>
+          </div>
+        </a>
+
+      </div>
+
+
+
       </footer>
       <!-- end footer -->
 

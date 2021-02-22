@@ -232,8 +232,13 @@ new Vue({
     name:'Information'
   },
 
-
 ],
+
+footerCopyrightFirst: 'Enjoy the low price. We are tracking any intention of piracy.',
+
+footerCopyrightSecond: '2020 NEXGEN is Proudly Powered by ',
+
+codings: 'Codings.',
 
 
 

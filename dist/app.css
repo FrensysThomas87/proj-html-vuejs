@@ -393,6 +393,7 @@ header .container > nav ul li:hover {
   padding: 30px;
   text-align: center;
   position: relative;
+  transition: 0.5s;
 }
 #pricing-table .container .prices-container .prices .fas.fa-arrow-right {
   position: absolute;

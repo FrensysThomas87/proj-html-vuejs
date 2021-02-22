@@ -399,7 +399,6 @@ body{
 
   // Excellence services
   #excellence-services{
-
     background-color: $woodSmokeBlack;
 
     .container{
@@ -550,6 +549,7 @@ body{
           padding: 30px;
           text-align: center;
           position: relative;
+          transition: $transitions05s;
 
           .fas.fa-arrow-right{
             position: absolute;
@@ -564,6 +564,7 @@ body{
 
           &:hover{
             @include servicesHover;
+
           }
 
           &:hover .fas.fa-arrow-right{

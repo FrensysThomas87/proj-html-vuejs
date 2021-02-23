@@ -960,7 +960,7 @@ footer .footer-bottom .container .footer-copyright span {
   color: #038483;
 }
 footer #go-top {
-  background-color: #e3e7df;
+  background-color: #a2adae;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -970,6 +970,7 @@ footer #go-top {
 }
 footer #go-top:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #e3e7df;
 }
 footer #go-top i {
   color: #038483;

@@ -951,7 +951,7 @@ footer .footer-bottom .container .footer-copyright span {
   color: #038483;
 }
 footer #go-top {
-  background-color: #19191f;
+  background-color: #e3e7df;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -960,8 +960,8 @@ footer #go-top {
   bottom: 20px;
 }
 footer #go-top i {
-  color: #4e4d51;
-  font-size: 30px;
+  color: #038483;
+  font-size: 23px;
   top: 50%;
   left: 50%;
   position: absolute;

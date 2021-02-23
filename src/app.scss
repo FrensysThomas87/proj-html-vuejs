@@ -745,7 +745,11 @@ img{
             margin: 0 20px;
           }
 
-      
+          &:hover img{
+            filter: blur(3px);
+          }
+
+
 
           >img{
             width: 100%;

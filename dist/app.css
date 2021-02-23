@@ -581,6 +581,9 @@ header .container > nav ul li:hover {
 #latest-news .latest-news-photos-container .latest-news-photos:nth-child(2) {
   margin: 0 20px;
 }
+#latest-news .latest-news-photos-container .latest-news-photos:hover img {
+  filter: blur(3px);
+}
 #latest-news .latest-news-photos-container .latest-news-photos > img {
   width: 100%;
   border-radius: 5px;

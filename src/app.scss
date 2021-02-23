@@ -181,6 +181,11 @@ body{
   }
   // end header
 
+  // .scroll-header{
+  //   height: 100px;
+  //   background-color: $blueLagoon;
+  // }
+
   //jumbotron
   #jumbotron{
   height: 100vh;
@@ -1186,11 +1191,13 @@ footer{
     position: fixed;
     right: 20px;
     bottom: 20px;
+    transition: $transitions05s;
 
 
     &:hover{
       box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
       background-color: $grayNurse;
+      transition: $transitions05s;
     }
 
     i{

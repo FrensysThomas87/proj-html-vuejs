@@ -243,13 +243,6 @@ codings: 'Codings.',
 
 // Proprietà Footer
 
-
-
-
-
-
-
-
-   },
+  },
 });
 Vue.config.devtools = true;

@@ -967,10 +967,12 @@ footer #go-top {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  transition: 0.5s;
 }
 footer #go-top:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: #e3e7df;
+  transition: 0.5s;
 }
 footer #go-top i {
   color: #038483;

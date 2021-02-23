@@ -611,11 +611,11 @@ header .container > nav ul li:hover {
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay h2 {
   margin-top: 243px;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay .more-info-container {
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay .more-info-container > span {
   margin-right: 15px;
@@ -786,6 +786,7 @@ header .container > nav ul li:hover {
   text-align: center;
   display: inline-block;
   transition: 0.5s;
+  width: 100px;
 }
 #get-in-touch .container .slogan-container a .full-blue-button:hover {
   background-color: #41c457;

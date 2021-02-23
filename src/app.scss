@@ -745,6 +745,8 @@ img{
             margin: 0 20px;
           }
 
+      
+
           >img{
             width: 100%;
             border-radius: 5px;
@@ -764,6 +766,8 @@ img{
               margin-top: 40px;
             }
 
+
+
             &:hover h2{
               margin-top: 120px;
               margin-bottom: 25px;
@@ -775,13 +779,13 @@ img{
 
             h2{
               margin-top: 243px;
-              transition: $transitions05s;
+              transition: $transitionLatestNews;
 
             }
 
             .more-info-container{
               opacity: 0;
-              transition: $transitions05s;
+              transition: $transitionLatestNews;
 
               >span{
                 margin-right: 15px;
@@ -964,6 +968,7 @@ img{
             text-align: center;
             display: inline-block;
             transition: $transitions05s;
+            width: 100px;
 
 
             &:hover{

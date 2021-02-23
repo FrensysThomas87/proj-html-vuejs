@@ -923,6 +923,10 @@ img{
           >input{
             @include inputText;
 
+            &:focus{
+              background-color: $focusInputColor;
+            }
+
           }
 
           .fas.fa-check{
@@ -948,6 +952,10 @@ img{
             margin-bottom: 20px;
             resize: none;
             outline: none;
+
+            &:focus{
+              background-color: $focusInputColor;
+            }
           }
         }
 

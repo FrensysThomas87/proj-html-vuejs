@@ -684,6 +684,8 @@ header .container > nav ul li:hover {
   border: 0;
   padding: 10px;
   outline: none;
+  width: 435px;
+  height: 50px;
 }
 #news-letter .container .slogan-container .input-container input:focus {
   background-color: rgba(255, 255, 255, 0.8);

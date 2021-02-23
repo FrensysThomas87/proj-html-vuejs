@@ -886,6 +886,8 @@ img{
 
             input{
               @include inputText;
+              width: 435px;
+              height: 50px;
 
               &:focus{
                 background-color: $focusInputNewsLetter;

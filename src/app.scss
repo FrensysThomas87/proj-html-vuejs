@@ -70,7 +70,7 @@ body{
 @mixin services {
   width: calc(100% / 3 - 20px);
   height: 300px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 40px;
 }
 
@@ -438,6 +438,7 @@ img{
         width: 100%;
 
 
+
         h4{
           @include sectionH4;
         }
@@ -465,6 +466,7 @@ img{
             @include emptyBgButton;
             padding: 10px 25px;
             float: right;
+            margin-right: 15px;
             margin-top: -40px;
             transition: $transitions05s;
 
@@ -481,11 +483,13 @@ img{
         margin-top: 35px;
 
 
+
+
         .services{
           @include services;
-          width: calc(100% /3 - 15px);
+          width: calc(100% / 3 - 28px );
           background-color: $servicesBgExellence;
-          margin: 0 15px 15px 0;
+          margin: 14px;
           transition: $transitions05s;
 
           >i{
@@ -563,6 +567,8 @@ img{
           @include highlightedWord;
           background-color: $highlightedBgGreen;
           color: $blueLagoon;
+
+
         }
 
         p{
@@ -1162,7 +1168,7 @@ footer{
     }
 
   .footer-bottom{
-    background-color: #000;
+    background-color: $footerBottomColor;
     height: 80px;
     padding: 0 20px;
 

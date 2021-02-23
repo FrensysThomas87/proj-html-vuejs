@@ -181,14 +181,14 @@ header .container > nav ul li:hover {
 #three-adjectives-section .container .services-div {
   width: calc(100% / 3 - 20px);
   height: 300px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 40px;
   background-color: #fff;
   margin-right: 20px;
   transition: 0.5s;
 }
 #three-adjectives-section .container .services-div > i {
-  background-color: #DAECED;
+  background-color: #CCE3DE;
   border-radius: 50%;
   font-size: 25px;
   color: #038483;
@@ -227,7 +227,7 @@ header .container > nav ul li:hover {
 #network-section .about-network > span:first-of-type {
   color: #038483;
   padding: 2px 10px;
-  background-color: #DAECED;
+  background-color: #CCE3DE;
 }
 #network-section .about-network p {
   margin-top: 20px;
@@ -301,6 +301,7 @@ header .container > nav ul li:hover {
   padding: 10px 15px;
   padding: 10px 25px;
   float: right;
+  margin-right: 15px;
   margin-top: -40px;
   transition: 0.5s;
 }
@@ -317,11 +318,11 @@ header .container > nav ul li:hover {
 #excellence-services .container .services-container .services {
   width: calc(100% / 3 - 20px);
   height: 300px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 40px;
-  width: calc(100% /3 - 15px);
+  width: calc(100% / 3 - 28px );
   background-color: #19191f;
-  margin: 0 15px 15px 0;
+  margin: 14px;
   transition: 0.5s;
 }
 #excellence-services .container .services-container .services > i {
@@ -401,7 +402,7 @@ header .container > nav ul li:hover {
 }
 #pricing-table .container .slogan-container span:first-of-type {
   padding: 2px 10px;
-  background-color: #DAECED;
+  background-color: #CCE3DE;
   color: #038483;
 }
 #pricing-table .container .slogan-container p {
@@ -539,7 +540,7 @@ header .container > nav ul li:hover {
 }
 #latest-news .container .slogan-container > span:last-of-type {
   padding: 2px 10px;
-  background-color: #DAECED;
+  background-color: #CCE3DE;
   color: #038483;
 }
 #latest-news .container .slogan-container p {
@@ -733,7 +734,7 @@ header .container > nav ul li:hover {
 }
 #get-in-touch .container .slogan-container > span:last-of-type {
   padding: 2px 10px;
-  background-color: #DAECED;
+  background-color: #CCE3DE;
   color: #038483;
 }
 #get-in-touch .container .slogan-container p {
@@ -814,7 +815,7 @@ header .container > nav ul li:hover {
   cursor: pointer;
 }
 #get-in-touch .container .contacts-container .icon-contacts > i {
-  background-color: #DAECED;
+  background-color: #CCE3DE;
   border-radius: 50%;
   font-size: 25px;
   color: #038483;
@@ -941,7 +942,7 @@ footer .container .footer-elements-container .footer-info-container p:first-chil
   cursor: default;
 }
 footer .footer-bottom {
-  background-color: #000;
+  background-color: #0d0d11;
   height: 80px;
   padding: 0 20px;
 }

@@ -44,7 +44,7 @@ body{
   padding: 10px 15px;
   background-color: $blueLagoon;
   border-radius: 5px;
-  width: 134px;
+  // width: 134px;
 }
 
 @mixin transparentButtonHover {
@@ -57,6 +57,7 @@ body{
   border-radius: 5px;
   border: 1px solid $blueLagoon;
   padding: 10px 15px;
+
 }
 
 @mixin centerAbsolute {
@@ -712,9 +713,7 @@ img{
           @include href;
 
           .full-blue-button{
-            background-color: $blueLagoon;
-            padding: 10px 20px;
-            border-radius: 5px;
+            @include fullBlueButton;
             text-align: center;
             float: right;
             margin-top: -40px;
@@ -863,9 +862,7 @@ img{
               @include href;
 
               .full-blue-button{
-                background-color: $blueLagoon;
-                padding: 10px 20px;
-                border-radius: 5px;
+                @include fullBlueButton;
                 text-align: center;
                 display: inline-block;
 
@@ -963,9 +960,7 @@ img{
           @include href;
 
           .full-blue-button{
-            background-color: $blueLagoon;
-            padding: 10px 20px;
-            border-radius: 5px;
+            @include fullBlueButton;
             text-align: center;
             display: inline-block;
             transition: $transitions05s;

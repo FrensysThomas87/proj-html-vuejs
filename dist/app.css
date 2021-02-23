@@ -107,7 +107,6 @@ header .container > nav ul li:hover {
   padding: 10px 15px;
   background-color: #038483;
   border-radius: 5px;
-  width: 134px;
 }
 #jumbotron > .overlay .container > ul li .full-blue-btn:hover {
   color: #fff;
@@ -147,7 +146,6 @@ header .container > nav ul li:hover {
   padding: 10px 15px;
   background-color: #038483;
   border-radius: 5px;
-  width: 134px;
   width: 150px;
   display: inline-block;
   margin-top: 40px;
@@ -555,8 +553,8 @@ header .container > nav ul li:hover {
   text-decoration: none;
 }
 #latest-news .container .slogan-container a .full-blue-button {
+  padding: 10px 15px;
   background-color: #038483;
-  padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
   float: right;
@@ -690,8 +688,8 @@ header .container > nav ul li:hover {
   text-decoration: none;
 }
 #news-letter .container .slogan-container .input-container a .full-blue-button {
+  padding: 10px 15px;
   background-color: #038483;
-  padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;
@@ -782,8 +780,8 @@ header .container > nav ul li:hover {
   text-decoration: none;
 }
 #get-in-touch .container .slogan-container a .full-blue-button {
+  padding: 10px 15px;
   background-color: #038483;
-  padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;

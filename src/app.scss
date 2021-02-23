@@ -182,11 +182,19 @@ body{
   //jumbotron
   #jumbotron{
   height: 100vh;
-  background-image: url($jumbotronBg);
+  width: 100vw;
+  background-image: url($jumbotronVideoBg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   position: $posRelative;
+  
+
+  video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
 
 
 

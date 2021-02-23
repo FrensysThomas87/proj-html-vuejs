@@ -46,11 +46,18 @@ header .container > nav ul li:hover {
 
 #jumbotron {
   height: 100vh;
-  background-image: url("../img/hero-image.png");
+  width: 100vw;
+  background-image: url("https://nexgen.codings.dev/assets/videos/city.mp4");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+#jumbotron video {
+  height: 100vh;
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #jumbotron > .overlay {
   width: 100%;

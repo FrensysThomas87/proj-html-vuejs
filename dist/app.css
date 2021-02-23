@@ -968,6 +968,9 @@ footer #go-top {
   right: 20px;
   bottom: 20px;
 }
+footer #go-top:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
 footer #go-top i {
   color: #038483;
   font-size: 23px;

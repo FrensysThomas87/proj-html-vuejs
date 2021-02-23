@@ -575,18 +575,23 @@ header .container > nav ul li:hover {
   position: relative;
   text-align: center;
   color: #fff;
-  height: 391px;
+  height: 380px;
   border-radius: 5px;
+  overflow: hidden;
 }
 #latest-news .latest-news-photos-container .latest-news-photos:nth-child(2) {
   margin: 0 20px;
 }
 #latest-news .latest-news-photos-container .latest-news-photos:hover img {
   filter: blur(3px);
+  transition: all 0.2s ease-out 0s;
+  transform: scale(1.1);
+  overflow: hidden;
 }
 #latest-news .latest-news-photos-container .latest-news-photos > img {
   width: 100%;
   border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay {
   width: 100%;
@@ -598,7 +603,7 @@ header .container > nav ul li:hover {
   justify-content: center;
   padding: 0 50px;
   border-radius: 5px;
-  height: 99%;
+  height: 100%;
   cursor: pointer;
 }
 #latest-news .latest-news-photos-container .latest-news-photos .overlay:hover .more-info-container {

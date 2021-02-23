@@ -489,7 +489,7 @@ img{
         .services{
           @include services;
           width: calc(100% / 3 - 28px );
-          background-color: $servicesBgExellence;
+          background-color: $lightBlack;
           margin: 14px;
           transition: $transitions05s;
 
@@ -1072,7 +1072,7 @@ footer{
       .footer-contacts{
           width: calc(100% / 3 - 40px);
           margin: 20px;
-          background-color: $servicesBgExellence;
+          background-color: $lightBlack;
 
           &:first-child{
             background-color:$woodSmokeBlack;
@@ -1125,7 +1125,7 @@ footer{
         }
 
         .footer-info-container{
-          background-color: $servicesBgExellence;
+          background-color: $lightBlack;
           width:calc(100% / 3 - 20px);
           margin: 20px;
           padding: 30px;

@@ -124,6 +124,7 @@ body{
   border: 0;
   padding:10px;
   outline: none;
+
 }
 
 @mixin bgDots {
@@ -852,12 +853,16 @@ img{
             input{
               @include inputText;
 
+              &:focus{
+                background-color: $focusInputNewsLetter;
+              }
+
             }
 
             a{
               @include href;
 
-              .full-blue-btn{
+              .full-blue-button{
                 background-color: $blueLagoon;
                 padding: 10px 20px;
                 border-radius: 5px;
@@ -886,6 +891,7 @@ img{
       height: 100%;
       display: $flex;
       align-items: center;
+      position: relative;
 
       .slogan-container{
         width: 100%;
@@ -916,6 +922,14 @@ img{
 
           >input{
             @include inputText;
+
+          }
+
+          i{
+            position: absolute;
+            left: 56%;
+            top:294px;
+            color: $flintGray;
           }
 
           >textarea{

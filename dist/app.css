@@ -682,18 +682,21 @@ header .container > nav ul li:hover {
   padding: 10px;
   outline: none;
 }
+#news-letter .container .slogan-container .input-container input:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 #news-letter .container .slogan-container .input-container a {
   color: #fff;
   text-decoration: none;
 }
-#news-letter .container .slogan-container .input-container a .full-blue-btn {
+#news-letter .container .slogan-container .input-container a .full-blue-button {
   background-color: #038483;
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;
 }
-#news-letter .container .slogan-container .input-container a .full-blue-btn:hover {
+#news-letter .container .slogan-container .input-container a .full-blue-button:hover {
   background-color: #41c457;
 }
 
@@ -708,6 +711,7 @@ header .container > nav ul li:hover {
   height: 100%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 #get-in-touch .container .slogan-container {
   width: 100%;
@@ -744,6 +748,12 @@ header .container > nav ul li:hover {
   border: 0;
   padding: 10px;
   outline: none;
+}
+#get-in-touch .container .slogan-container .input-container i {
+  position: absolute;
+  left: 56%;
+  top: 294px;
+  color: #706c68;
 }
 #get-in-touch .container .slogan-container .input-container > textarea {
   width: 705px;

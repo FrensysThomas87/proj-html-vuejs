@@ -82,7 +82,7 @@ body{
 @mixin paragraphs {
   margin-top: 20px;
   font-size: 18px;
-  color: $edwardGray;
+  // color: $edwardGray;
 }
 
 @mixin sectionH4 {
@@ -287,7 +287,7 @@ body{
 
         >p{
           @include paragraphs;
-          color: $edwardGray;
+          color: $paragrDarkBg;
         }
 
         >a{
@@ -358,7 +358,7 @@ body{
         >p{
           margin-top: 20px;
           font-size: 18px;
-          color: $flintGray;
+          color: $paragraphsLightBg;
         }
       }
     }
@@ -393,6 +393,7 @@ body{
       p{
         @include paragraphs;
         margin-bottom: 70px;
+        color: $paragraphsLightBg;
       }
 
       .quality{
@@ -455,7 +456,7 @@ img{
 
         p{
           @include paragraphs;
-          color: $grayNurse;
+          color: $paragrDarkBg;
         }
 
         a{
@@ -514,6 +515,7 @@ img{
 
           >p{
             @include paragraphs;
+            color: $paragrDarkBg;
           }
 
           a{
@@ -573,6 +575,7 @@ img{
 
         p{
           @include paragraphs;
+          color: $paragraphsLightBg;
         }
       }
 
@@ -674,7 +677,7 @@ img{
 
             >p{
               margin-bottom: 18px;
-              color: $flintGray;
+              color: $paragraphsLightBg;
 
               >i{
                 float: right;
@@ -717,7 +720,7 @@ img{
 
         p{
           @include paragraphs;
-          color: $flintGray;
+          color: $paragraphsLightBg;
         }
 
         a{
@@ -868,7 +871,7 @@ img{
 
         p{
           @include paragraphs;
-          color: $grayNurse;
+          color: $paragrDarkBg;
         }
 
 
@@ -943,7 +946,7 @@ img{
 
         p{
           @include paragraphs;
-          color: $flintGray;
+          color: $paragraphsLightBg;
         }
 
         .input-container{
@@ -1015,6 +1018,7 @@ img{
               >p{
                 @include paragraphs;
                 margin-top: 30px;
+                color: $paragraphsLightBg;
               }
 
               .icon-contacts{
@@ -1075,7 +1079,7 @@ footer{
           }
 
           p{
-            color:  $edwardGray;
+            color:  $paragrDarkBg;
             display: inline-block;
             font-size: 18px;
             margin-bottom: 15px;
@@ -1136,7 +1140,7 @@ footer{
 
 
           p{
-            color: $edwardGray;
+            color: $paragrDarkBg;
             font-size: 18px;
             margin-bottom: 10px;
             margin-left: 8px;

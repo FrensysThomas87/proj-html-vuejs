@@ -925,10 +925,17 @@ img{
 
           }
 
-          i{
+          .fas.fa-check{
             position: absolute;
             left: 56%;
             top:294px;
+            color: $flintGray;
+          }
+
+          .far.fa-clipboard{
+            position: absolute;
+            left: 27%;
+            top:238px;
             color: $flintGray;
           }
 

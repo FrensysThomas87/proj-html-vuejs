@@ -749,10 +749,16 @@ header .container > nav ul li:hover {
   padding: 10px;
   outline: none;
 }
-#get-in-touch .container .slogan-container .input-container i {
+#get-in-touch .container .slogan-container .input-container .fas.fa-check {
   position: absolute;
   left: 56%;
   top: 294px;
+  color: #706c68;
+}
+#get-in-touch .container .slogan-container .input-container .far.fa-clipboard {
+  position: absolute;
+  left: 27%;
+  top: 238px;
   color: #706c68;
 }
 #get-in-touch .container .slogan-container .input-container > textarea {

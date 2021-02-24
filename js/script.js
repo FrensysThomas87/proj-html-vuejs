@@ -112,51 +112,175 @@ new Vue({
 
 
 
-      // Proprietà footer
 
-      footerAbout:[
+//
+//       footerAbout:[
+//
+//       {
+//         name: 'About'
+//       },
+//
+//
+//       {
+//         icon:'fas fa-chevron-right',
+//         name:'The Company'
+//       },
+//
+//       {
+//         icon:'fas fa-chevron-right',
+//         name:'Institutional'
+//       },
+//
+//       {
+//         icon:'fas fa-chevron-right',
+//         name:'Social & Events'
+//       },
+//
+//       {
+//         icon:'fas fa-chevron-right',
+//         name:'Innovation'
+//       },
+//
+//       {
+//         icon:'fas fa-chevron-right',
+//         name:'Environment'
+//       },
+//
+//       {
+//         icon:'fas fa-chevron-right',
+//         name:'Technology'
+//       },
+//
+//
+//     ],
+//
+//
+//     footerServices:[
+//
+//     {
+//       name: 'Services'
+//     },
+//
+//
+//     {
+//       icon:'fas fa-chevron-right',
+//       name:'Audit & Assurance'
+//     },
+//
+//     {
+//       icon:'fas fa-chevron-right',
+//       name:'Financial Advisory'
+//     },
+//
+//     {
+//       icon:'fas fa-chevron-right',
+//       name:'Analytics M&A'
+//     },
+//
+//     {
+//       icon:'fas fa-chevron-right',
+//       name:'Middle Marketing'
+//     },
+//
+//     {
+//       icon:'fas fa-chevron-right',
+//       name:'Legal Consulting'
+//     },
+//
+//     {
+//       icon:'fas fa-chevron-right',
+//       name:'Regulatory Risk'
+//     },
+//
+//
+//   ],
+//
+//
+//   footerSupport:[
+//
+//   {
+//     name: 'Support'
+//   },
+//
+//
+//   {
+//     icon:'fas fa-chevron-right',
+//     name:'Responsability'
+//   },
+//
+//   {
+//     icon:'fas fa-chevron-right',
+//     name:'Terms of Use'
+//   },
+//
+//   {
+//     icon:'fas fa-chevron-right',
+//     name:'About Cookies'
+//   },
+//
+//   {
+//     icon:'fas fa-chevron-right',
+//     name:'Privacy Policy'
+//   },
+//
+//   {
+//     icon:'fas fa-chevron-right',
+//     name:'Accessibility'
+//   },
+//
+//   {
+//     icon:'fas fa-chevron-right',
+//     name:'Information'
+//   },
+//
+// ],
 
-      {
-        name: 'About'
-      },
+footerCopyrightFirst: 'Enjoy the low price. We are tracking any intention of piracy.',
+
+footerCopyrightSecond: '2020 NEXGEN is Proudly Powered by ',
+
+codings: 'Codings.',
+
+// Proprietà footer
+footer:[{
+  about:[
+    {
+      name: 'About'
+    },
 
 
-      {
-        icon:'fas fa-chevron-right',
-        name:'The Company'
-      },
+    {
+      icon:'fas fa-chevron-right',
+      name:'The Company'
+    },
 
-      {
-        icon:'fas fa-chevron-right',
-        name:'Institutional'
-      },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Institutional'
+    },
 
-      {
-        icon:'fas fa-chevron-right',
-        name:'Social & Events'
-      },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Social & Events'
+    },
 
-      {
-        icon:'fas fa-chevron-right',
-        name:'Innovation'
-      },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Innovation'
+    },
 
-      {
-        icon:'fas fa-chevron-right',
-        name:'Environment'
-      },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Environment'
+    },
 
-      {
-        icon:'fas fa-chevron-right',
-        name:'Technology'
-      },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Technology'
+    },
+  ],
 
-
-    ],
-
-
-    footerServices:[
-
+  services:[
     {
       name: 'Services'
     },
@@ -195,51 +319,47 @@ new Vue({
 
   ],
 
-
-  footerSupport:[
-
-  {
-    name: 'Support'
-  },
+  support:[
+    {
+      name: 'Support'
+    },
 
 
-  {
-    icon:'fas fa-chevron-right',
-    name:'Responsability'
-  },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Responsability'
+    },
 
-  {
-    icon:'fas fa-chevron-right',
-    name:'Terms of Use'
-  },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Terms of Use'
+    },
 
-  {
-    icon:'fas fa-chevron-right',
-    name:'About Cookies'
-  },
+    {
+      icon:'fas fa-chevron-right',
+      name:'About Cookies'
+    },
 
-  {
-    icon:'fas fa-chevron-right',
-    name:'Privacy Policy'
-  },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Privacy Policy'
+    },
 
-  {
-    icon:'fas fa-chevron-right',
-    name:'Accessibility'
-  },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Accessibility'
+    },
 
-  {
-    icon:'fas fa-chevron-right',
-    name:'Information'
-  },
+    {
+      icon:'fas fa-chevron-right',
+      name:'Information'
+    },
+  ]
+}],
 
-],
 
-footerCopyrightFirst: 'Enjoy the low price. We are tracking any intention of piracy.',
 
-footerCopyrightSecond: '2020 NEXGEN is Proudly Powered by ',
 
-codings: 'Codings.',
 
 // Proprietà Footer
 

@@ -443,16 +443,16 @@
               </a>
             </div>
 
-              <div class="footer-info-container">
-                <p v-for="element in footerAbout"><i :class="element.icon"></i>{{element.name}}</p>
+              <div class="footer-info-container" v-for="element in footer">
+                <p v-for="item in element.about" ><i :class="item.icon"></i>{{item.name}}</p>
               </div>
 
-              <div class="footer-info-container">
-                <p v-for="element in footerServices"><i :class="element.icon"></i>{{element.name}}</p>
+              <div class="footer-info-container" v-for="element in footer">
+                <p v-for="item in element.services"><i :class="item.icon"></i>{{item.name}}</p>
               </div>
 
-              <div class="footer-info-container">
-                <p v-for="element in footerSupport"><i :class="element.icon"></i>{{element.name}}</p>
+              <div class="footer-info-container" v-for="element in footer">
+                <p v-for="item in element.support"><i :class="item.icon"></i>{{item.name}}</p>
               </div>
 
           </div>

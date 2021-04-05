@@ -14,6 +14,11 @@ header {
   background-color: #0d7e7e;
   position: relative;
 }
+@media screen and (max-width: 500px) {
+  header {
+    background-color: red;
+  }
+}
 header > .overlay {
   width: 100%;
   height: 100%;

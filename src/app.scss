@@ -152,6 +152,11 @@ body{
     background-color: $surfieGreen;
     position: $posRelative;
 
+    @media screen and (max-width: 500px){
+      background-color: red;
+
+    }
+
     >.overlay{
       @include overlay;
     }
